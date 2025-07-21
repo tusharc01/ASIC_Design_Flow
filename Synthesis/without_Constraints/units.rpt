@@ -1,0 +1,10 @@
+Units
+----------------------------------------
+LIBRARY                typical
+Time_unit              :1000ps
+Capacitive_load_unit   :1000.0fF
+Resistance_unit        :1kohm
+Voltage_unit           :1V
+Current_unit           :1uA
+Power_unit             :nW 
+

@@ -1,0 +1,28 @@
+halsynth: Loading design snapshot....
+halsynth: Traversing design hierarchy....
+halsynth: *M,_SCOPE: lock
+halsynth: *N,FSMIDN (./lock.v,30|0): In module/design-unit 'lock', FSM for state register 'state' has been recognized.
+halsynth: *W,TRNMBT (./lock.v,48|0): For the specified state '1', the state value changes by more than one bits on transition to state(s): 2, 7.
+halsynth: (./lock.v,49|0): Source HDL information for the error/warning mentioned above.
+halsynth: (./lock.v,55|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,61|0): For the specified state '2', the state value changes by more than one bits on transition to state(s): 7.
+halsynth: (./lock.v,68|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,74|0): For the specified state '3', the state value changes by more than one bits on transition to state(s): 4.
+halsynth: (./lock.v,75|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,87|0): For the specified state '4', the state value changes by more than one bits on transition to state(s): 7.
+halsynth: (./lock.v,94|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,100|0): For the specified state '5', the state value changes by more than one bits on transition to state(s): 6.
+halsynth: (./lock.v,101|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,113|0): For the specified state '6', the state value changes by more than one bits on transition to state(s): 0.
+halsynth: (./lock.v,114|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,126|0): For the specified state '7', the state value changes by more than one bits on transition to state(s): 0.
+halsynth: (./lock.v,127|0): Source HDL information for the error/warning mentioned above.
+~:CLKOUT
+~:CLKSRD
+~:COMBLP
+~:INPOUT
+~:MUDREG
+~:MULWIR
+~:UNDRIV
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 7.

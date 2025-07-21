@@ -1,0 +1,3 @@
+Command Line: /foundry/synopsys/vcs/vcs/U-2023.03/linux64/bin/elabcom -logdir simv.daidir/elabcomLog -simvdaidir simv.daidir -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -topfile simv.daidir/.elabcomTopFile -ssz -ssv -ssy -Lf work +disable_message+C00388+C00389
+uname(Linux vlsilab9.nitrkl.ac.in 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+au time 0.032255 0.008195 0.013302 delta 89890816 89890816 total 271450112 271450112

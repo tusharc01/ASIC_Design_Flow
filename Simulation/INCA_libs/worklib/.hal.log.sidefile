@@ -1,0 +1,687 @@
+hal: Options:   -cdslib /home/nitrkl9/Documents/lock_files/Simulation/cds.lib -logfile hal.log /home/nitrkl9/Documents/lock_files/Simulation/lock.v.
+hal: Workspace: /home/nitrkl9/Documents/lock_files/Simulation.
+hal: Date: Thu Mar 27 18:11:01 IST 2025.
+hal: Running on design source files.....
+hal: *M,_SCOPE: __dummy_top
+hal: Snapshot:  worklib.lock:v.
+hal: *M,_SCOPE: __dummy_top
+halcheck: *M,_SCOPE: lock
+halcheck: *N,PRTCNT (./lock.v,3|0): Module/Entity 'lock' contains '6' ports.
+halcheck: (./lock.v,3): Number of Input ports: 3.
+halcheck: (./lock.v,3): Number of Output ports: 3.
+halcheck: *N,CDNOTE (./lock.v,1|0): The compiler directive '`timescale' is used in the RTL.
+halcheck: *W,STYVAL (./lock.v,13|0): Numeric value '2' used for identifier 'state'. Use constants to avoid portability issues.
+halcheck: *W,STYVAL (./lock.v,14|0): Numeric value '2' used for identifier 'next_state'. Use constants to avoid portability issues.
+halcheck: *W,UCCONN (./lock.v,16|0): Lowercase characters used for identifier 's_reset'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *N,IDLENG (./lock.v,17|0): Identifier name 's1' is not of appropriate length (4 to 16 characters).
+halcheck: *W,UCCONN (./lock.v,17|0): Lowercase characters used for identifier 's1'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *N,IDLENG (./lock.v,18|0): Identifier name 's2' is not of appropriate length (4 to 16 characters).
+halcheck: *W,UCCONN (./lock.v,18|0): Lowercase characters used for identifier 's2'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *N,IDLENG (./lock.v,19|0): Identifier name 's3' is not of appropriate length (4 to 16 characters).
+halcheck: *W,UCCONN (./lock.v,19|0): Lowercase characters used for identifier 's3'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *N,IDLENG (./lock.v,20|0): Identifier name 's4' is not of appropriate length (4 to 16 characters).
+halcheck: *W,UCCONN (./lock.v,20|0): Lowercase characters used for identifier 's4'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *N,IDLENG (./lock.v,21|0): Identifier name 's5' is not of appropriate length (4 to 16 characters).
+halcheck: *W,UCCONN (./lock.v,21|0): Lowercase characters used for identifier 's5'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *W,UCCONN (./lock.v,22|0): Lowercase characters used for identifier 'open'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *W,KEYWOD (./lock.v,22|0): VHDL reserved word 'open' used as an identifier or label.
+halcheck: *W,UCCONN (./lock.v,23|0): Lowercase characters used for identifier 's_error'. Use uppercase characters for names of constants and user-defined types.
+halcheck: *W,NOBLKN (./lock.v,26|0): Each block should be labeled with a meaningful name.
+halcheck: *W,NBGEND (./lock.v,27|0): Missing begin/end statement in the 'if' block.
+halcheck: *W,NOBLKN (./lock.v,33|0): Each block should be labeled with a meaningful name.
+halcheck: *W,CDEFCV (./lock.v,34|0): The case items of the case statement in module/design-unit lock cover all the numerical values of the case expression. The default clause is not required.
+halcheck: Total errors   = 0.
+halcheck: Total warnings = 15.
+hal: *M,_SCOPE: __dummy_top
+halsynth: Loading design snapshot....
+halsynth: Traversing design hierarchy....
+halsynth: *M,_SCOPE: lock
+halsynth: *N,FSMIDN (./lock.v,30|0): In module/design-unit 'lock', FSM for state register 'state' has been recognized.
+halsynth: *W,TRNMBT (./lock.v,48|0): For the specified state '1', the state value changes by more than one bits on transition to state(s): 2, 7.
+halsynth: (./lock.v,49|0): Source HDL information for the error/warning mentioned above.
+halsynth: (./lock.v,55|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,61|0): For the specified state '2', the state value changes by more than one bits on transition to state(s): 7.
+halsynth: (./lock.v,68|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,74|0): For the specified state '3', the state value changes by more than one bits on transition to state(s): 4.
+halsynth: (./lock.v,75|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,87|0): For the specified state '4', the state value changes by more than one bits on transition to state(s): 7.
+halsynth: (./lock.v,94|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,100|0): For the specified state '5', the state value changes by more than one bits on transition to state(s): 6.
+halsynth: (./lock.v,101|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,113|0): For the specified state '6', the state value changes by more than one bits on transition to state(s): 0.
+halsynth: (./lock.v,114|0): Source HDL information for the error/warning mentioned above.
+halsynth: *W,TRNMBT (./lock.v,126|0): For the specified state '7', the state value changes by more than one bits on transition to state(s): 0.
+halsynth: (./lock.v,127|0): Source HDL information for the error/warning mentioned above.
+~:CLKOUT
+~:CLKSRD
+~:COMBLP
+~:INPOUT
+~:MUDREG
+~:MULWIR
+~:UNDRIV
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 7.
+hal: *M,_SCOPE: __dummy_top
+halstruct: *M,_SCOPE: lock
+halstruct: *W,TPOUNR (./lock.v,135|0): Output 'ready' of top-level module is not a register.
+@:ready 
+@:ready 
+halstruct: *W,TPOUNR (./lock.v,128|0): Output 'unlock' of top-level module is not a register.
+@:unlock 
+@:unlock 
+halstruct: *W,TPOUNR (./lock.v,136|0): Output 'error' of top-level module is not a register.
+@:error 
+@:error 
+halstruct: *W,ASNRST (./lock.v,30|0): Flip-flop 'lock.state' has 'active_high' asynchronous set/reset 'reset' as against the recommended 'active_low' style.
+halstruct: *N,FFASRT (./lock.v,30|0): Flip-flop 'state' has an asynchronous reset 'reset'.
+@:$$cpiST_56_1808 
+@:state 
+@:reset 
+@:lock lock
+halstruct: *N,CLKINF (./lock.v,5|0): Signal 'lock.clock' was inferred as clock.
+@:clock 
+@:$$cpiST_56_1808 
+@:state 
+halstruct: (./lock.v,5): Clock source is signal 'lock.clock'.
+@:clock 
+halstruct: (./lock.v,30): Drives the flip-flop 'lock.state'.
+@:clock 
+halstruct: *W,SYNASN (./lock.v,3|0): The module/design-unit 'lock' contains synchronous as well as asynchronous logic.
+@:error 
+@:$$cpiST_56_1808 
+@:state 
+halstruct: (./lock.v,136): One instance/occurence of asynchronous logic at 'lock.error'.
+@:error 
+halstruct: (./lock.v,30): One instance/occurence of synchronous logic at 'lock.state'.
+@:$$cpiST_56_1808 
+@:state 
+halstruct: *N,NUMDFF (./lock.v,3|0): Number of single-bit D flip-flops present in the hierarchy is 3.
+halstruct: Design facts generated in 'hal.design_facts'.
+halstruct: Total errors   = 0.
+halstruct: Total warnings = 5.
+~:DSCNCK
+^:DSCNCK
+~:SLENEX
+^:SLENEX
+~:DSCNEN
+^:DSCNEN
+~:PCNOTC
+^:PCNOTC
+~:INPASN
+~:UNCONN
+~:UNDRIV
+~:USEPRT
+~:UASPRT
+~:URDPRT
+~:GATCLK
+~:RENAME
+~:RWRACE
+~:WWRACE
+~:LPISCS
+~:LPSRCS
+~:CMBPAU
+^:CMBPAU
+~:ASNCFL
+^:ASNCFL
+~:CONTLN
+^:CONTLN
+~:LATINF
+^:LATINF
+~:MULMCK
+^:MULMCK
+~:FFCKNP
+^:FFCKNP
+~:GTDCLK
+^:GTDCLK
+~:CLKLAT
+^:CLKLAT
+~:CLKNPI
+^:CLKNPI
+~:GTCLKN
+^:GTCLKN
+~:MRSTDT
+^:MRSTDT
+~:FDTHRU
+^:FDTHRU
+~:DFDRVS
+^:DFDRVS
+~:NEFLOP
+^:NEFLOP
+~:ACNCPI
+^:ACNCPI
+~:LENCPI
+^:LENCPI
+~:CLKDAT
+^:CLKDAT
+~:CLKLDT
+^:CLKLDT
+~:CLKINF
+^:CLKINF
+~:CDFDAT
+^:CDFDAT
+~:CDLDAT
+^:CDLDAT
+~:CAAFSR
+^:CAAFSR
+~:CACSRF
+^:CACSRF
+~:CAALSR
+^:CAALSR
+~:CACSRL
+^:CACSRL
+~:CLKDMN
+^:CLKDMN
+~:INSYNC
+^:INSYNC
+~:CBPAHI
+^:CBPAHI
+~:LFLTSE
+^:LFLTSE
+~:LFFTNE
+^:LFFTNE
+~:INFNOT
+^:INFNOT
+~:DALIAS
+^:DALIAS
+~:JKFFDT
+^:JKFFDT
+~:LATRAN
+^:LATRAN
+~:UNCONI
+^:UNCONI
+~:UNCONO
+^:UNCONO
+~:DIFCLK
+^:DIFCLK
+~:DIFRST
+^:DIFRST
+~:MLTDRV
+^:MLTDRV
+~:SUTHRU
+^:SUTHRU
+~:SEICLK
+^:SEICLK
+~:SMTCLK
+^:SMTCLK
+~:ASRTCK
+^:ASRTCK
+~:ASRTCL
+^:ASRTCL
+~:ASRTSC
+^:ASRTSC
+~:SCICLK
+^:SCICLK
+~:MULTCK
+^:MULTCK
+~:NOTCLK
+^:NOTCLK
+~:TCDFDT
+^:TCDFDT
+~:TCDLDT
+^:TCDLDT
+~:TCKDAT
+^:TCKDAT
+~:TCKLDT
+^:TCKLDT
+~:TXCNOP
+^:TXCNOP
+~:MEMNOP
+^:MEMNOP
+~:TENNOC
+^:TENNOC
+~:TENNOD
+^:TENNOD
+~:GLTASR
+^:GLTASR
+~:RSTEDG
+^:RSTEDG
+~:NOTSCN
+^:NOTSCN
+~:MCKNDB
+^:MCKNDB
+~:WENNDB
+^:WENNDB
+~:SCNLEN
+^:SCNLEN
+~:TMSCFF
+^:TMSCFF
+~:OUTMNR
+^:OUTMNR
+~:INPMNR
+^:INPMNR
+~:SRENSL
+^:SRENSL
+~:LDFFPI
+^:LDFFPI
+~:RSTDAT
+^:RSTDAT
+~:RSTGNH
+^:RSTGNH
+~:CLKGNH
+^:CLKGNH
+~:MXTSBC
+^:MXTSBC
+~:TSBNTH
+^:TSBNTH
+~:MXFNOT
+^:MXFNOT
+~:ATLGLC
+^:ATLGLC
+~:SLNOTP
+^:SLNOTP
+~:TPOUNR
+^:TPOUNR
+~:SELCLK
+^:SELCLK
+~:EDGMIX
+^:EDGMIX
+~:LGRSTL
+^:LGRSTL
+~:FRSTDL
+^:FRSTDL
+~:FRSTDF
+^:FRSTDF
+~:RSTDPT
+^:RSTDPT
+~:CLKDPT
+^:CLKDPT
+~:CLKUCL
+^:CLKUCL
+~:RSTUCL
+^:RSTUCL
+~:ENGTNR
+^:ENGTNR
+~:RSTDMN
+^:RSTDMN
+~:CLKNTP
+^:CLKNTP
+~:ADRSND
+^:ADRSND
+~:CGCENC
+^:CGCENC
+~:SEDFRS
+^:SEDFRS
+~:MULTCC
+^:MULTCC
+~:SMCKRS
+^:SMCKRS
+~:MEMNCB
+^:MEMNCB
+~:MTOMPH
+^:MTOMPH
+~:UVRFCN
+^:UVRFCN
+~:CONVRF
+^:CONVRF
+~:RSTENA
+^:RSTENA
+~:MOTINP
+^:MOTINP
+~:OPDNMT
+^:OPDNMT
+~:FENCNT
+^:FENCNT
+~:TPIUNR
+^:TPIUNR
+~:IPRTNR
+^:IPRTNR
+~:SYNPRT
+^:SYNPRT
+~:CONCLK
+^:CONCLK
+~:DATUNB
+^:DATUNB
+~:RSTINF
+^:RSTINF
+~:CKSMFC
+^:CKSMFC
+~:CDRNCF
+^:CDRNCF
+~:SAMESR
+^:SAMESR
+~:CGECCP
+^:CGECCP
+~:RSTNFR
+^:RSTNFR
+~:DTUNCP
+^:DTUNCP
+~:INSTCL
+^:INSTCL
+~:INSTCN
+^:INSTCN
+~:RSTCCK
+^:RSTCCK
+~:CGCPCK
+^:CGCPCK
+~:RSTCLK
+^:RSTCLK
+~:FFSRST
+^:FFSRST
+~:SGUNDV
+^:SGUNDV
+~:FFWASR
+^:FFWASR
+~:FFWNSR
+^:FFWNSR
+~:FFASRT
+^:FFASRT
+~:LCNSTD
+^:LCNSTD
+~:FFCSTD
+^:FFCSTD
+~:GENTOP
+^:GENTOP
+~:LTCHNT
+^:LTCHNT
+~:MLTDIO
+^:MLTDIO
+~:SYNASN
+^:SYNASN
+~:MULRST
+^:MULRST
+~:MCKDMN
+^:MCKDMN
+~:CLKGNP
+^:CLKGNP
+~:RSTGNP
+^:RSTGNP
+~:TSBINF
+^:TSBINF
+~:RTCDAT
+^:RTCDAT
+~:LENCPC
+^:LENCPC
+hal: *M,_SCOPE: __dummy_top
+~:DSCNCK
+^:DSCNCK
+~:SLENEX
+^:SLENEX
+~:DSCNEN
+^:DSCNEN
+~:PCNOTC
+^:PCNOTC
+~:INPASN
+~:UNCONN
+~:UNDRIV
+~:USEPRT
+~:UASPRT
+~:URDPRT
+~:GATCLK
+~:RENAME
+~:RWRACE
+~:WWRACE
+~:LPISCS
+~:LPSRCS
+~:CMBPAU
+^:CMBPAU
+~:ASNCFL
+^:ASNCFL
+~:CONTLN
+^:CONTLN
+~:LATINF
+^:LATINF
+~:MULMCK
+^:MULMCK
+~:FFCKNP
+^:FFCKNP
+~:GTDCLK
+^:GTDCLK
+~:CLKLAT
+^:CLKLAT
+~:CLKNPI
+^:CLKNPI
+~:GTCLKN
+^:GTCLKN
+~:MRSTDT
+^:MRSTDT
+~:FDTHRU
+^:FDTHRU
+~:DFDRVS
+^:DFDRVS
+~:NEFLOP
+^:NEFLOP
+~:ACNCPI
+^:ACNCPI
+~:LENCPI
+^:LENCPI
+~:CLKDAT
+^:CLKDAT
+~:CLKLDT
+^:CLKLDT
+~:CLKINF
+^:CLKINF
+~:CDFDAT
+^:CDFDAT
+~:CDLDAT
+^:CDLDAT
+~:CAAFSR
+^:CAAFSR
+~:CACSRF
+^:CACSRF
+~:CAALSR
+^:CAALSR
+~:CACSRL
+^:CACSRL
+~:CLKDMN
+^:CLKDMN
+~:INSYNC
+^:INSYNC
+~:CBPAHI
+^:CBPAHI
+~:LFLTSE
+^:LFLTSE
+~:LFFTNE
+^:LFFTNE
+~:INFNOT
+^:INFNOT
+~:DALIAS
+^:DALIAS
+~:JKFFDT
+^:JKFFDT
+~:LATRAN
+^:LATRAN
+~:UNCONI
+^:UNCONI
+~:UNCONO
+^:UNCONO
+~:DIFCLK
+^:DIFCLK
+~:DIFRST
+^:DIFRST
+~:MLTDRV
+^:MLTDRV
+~:SUTHRU
+^:SUTHRU
+~:SEICLK
+^:SEICLK
+~:SMTCLK
+^:SMTCLK
+~:ASRTCK
+^:ASRTCK
+~:ASRTCL
+^:ASRTCL
+~:ASRTSC
+^:ASRTSC
+~:SCICLK
+^:SCICLK
+~:MULTCK
+^:MULTCK
+~:NOTCLK
+^:NOTCLK
+~:TCDFDT
+^:TCDFDT
+~:TCDLDT
+^:TCDLDT
+~:TCKDAT
+^:TCKDAT
+~:TCKLDT
+^:TCKLDT
+~:TXCNOP
+^:TXCNOP
+~:MEMNOP
+^:MEMNOP
+~:TENNOC
+^:TENNOC
+~:TENNOD
+^:TENNOD
+~:GLTASR
+^:GLTASR
+~:RSTEDG
+^:RSTEDG
+~:NOTSCN
+^:NOTSCN
+~:MCKNDB
+^:MCKNDB
+~:WENNDB
+^:WENNDB
+~:SCNLEN
+^:SCNLEN
+~:TMSCFF
+^:TMSCFF
+~:OUTMNR
+^:OUTMNR
+~:INPMNR
+^:INPMNR
+~:SRENSL
+^:SRENSL
+~:LDFFPI
+^:LDFFPI
+~:RSTDAT
+^:RSTDAT
+~:RSTGNH
+^:RSTGNH
+~:CLKGNH
+^:CLKGNH
+~:MXTSBC
+^:MXTSBC
+~:TSBNTH
+^:TSBNTH
+~:MXFNOT
+^:MXFNOT
+~:ATLGLC
+^:ATLGLC
+~:SLNOTP
+^:SLNOTP
+~:TPOUNR
+^:TPOUNR
+~:SELCLK
+^:SELCLK
+~:EDGMIX
+^:EDGMIX
+~:LGRSTL
+^:LGRSTL
+~:FRSTDL
+^:FRSTDL
+~:FRSTDF
+^:FRSTDF
+~:RSTDPT
+^:RSTDPT
+~:CLKDPT
+^:CLKDPT
+~:CLKUCL
+^:CLKUCL
+~:RSTUCL
+^:RSTUCL
+~:ENGTNR
+^:ENGTNR
+~:RSTDMN
+^:RSTDMN
+~:CLKNTP
+^:CLKNTP
+~:ADRSND
+^:ADRSND
+~:CGCENC
+^:CGCENC
+~:SEDFRS
+^:SEDFRS
+~:MULTCC
+^:MULTCC
+~:SMCKRS
+^:SMCKRS
+~:MEMNCB
+^:MEMNCB
+~:MTOMPH
+^:MTOMPH
+~:UVRFCN
+^:UVRFCN
+~:CONVRF
+^:CONVRF
+~:RSTENA
+^:RSTENA
+~:MOTINP
+^:MOTINP
+~:OPDNMT
+^:OPDNMT
+~:FENCNT
+^:FENCNT
+~:TPIUNR
+^:TPIUNR
+~:IPRTNR
+^:IPRTNR
+~:SYNPRT
+^:SYNPRT
+~:CONCLK
+^:CONCLK
+~:DATUNB
+^:DATUNB
+~:RSTINF
+^:RSTINF
+~:CKSMFC
+^:CKSMFC
+~:CDRNCF
+^:CDRNCF
+~:SAMESR
+^:SAMESR
+~:CGECCP
+^:CGECCP
+~:RSTNFR
+^:RSTNFR
+~:DTUNCP
+^:DTUNCP
+~:INSTCL
+^:INSTCL
+~:INSTCN
+^:INSTCN
+~:RSTCCK
+^:RSTCCK
+~:CGCPCK
+^:CGCPCK
+~:RSTCLK
+^:RSTCLK
+~:FFSRST
+^:FFSRST
+~:SGUNDV
+^:SGUNDV
+~:FFWASR
+^:FFWASR
+~:FFWNSR
+^:FFWNSR
+~:FFASRT
+^:FFASRT
+~:LCNSTD
+^:LCNSTD
+~:FFCSTD
+^:FFCSTD
+~:GENTOP
+^:GENTOP
+~:LTCHNT
+^:LTCHNT
+~:MLTDIO
+^:MLTDIO
+~:SYNASN
+^:SYNASN
+~:MULRST
+^:MULRST
+~:MCKDMN
+^:MCKDMN
+~:CLKGNP
+^:CLKGNP
+~:RSTGNP
+^:RSTGNP
+~:TSBINF
+^:TSBINF
+~:RTCDAT
+^:RTCDAT
+~:LENCPC
+^:LENCPC
+hal: *M,_SCOPE: __dummy_top

@@ -1,0 +1,200 @@
+
+Cadence Tempus(TM) Timing Signoff Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.20-p001_1, built Wed Dec 2 16:07:28 PST 2020
+Options:	
+Date:		Fri Mar 28 16:46:09 2025
+Host:		vlsilab9.nitrkl.ac.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		tpsxl	Tempus Timing Signoff Solution XL	20.2	checkout succeeded
+		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_4885_v76R2C'.
+<CMD> read_lib typical.lib
+<CMD> read_verilog lock_netlist.v
+<CMD> set_top_module
+#% Begin Load MMMC data ... (date=03/28 16:47:58, mem=599.9M)
+Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+#% End Load MMMC data ... (date=03/28 16:47:58, total cpu=0:00:00.0, real=0:00:00.0, peak res=600.1M, current mem=600.1M)
+default_emulate_early_rc_corner default_emulate_late_rc_corner default_emulate_rc_corner
+Loading view definition file from .ssv_emulate_view_definition_4885.tcl
+Reading default_emulate_libset_max timing library '/home/nitrkl9/Documents/lock_files/STA/typical.lib' ...
+Read 479 cells in library 'typical' 
+*** End library_loading (cpu=0.01min, real=0.00min, mem=4.0M, fe_cpu=0.41min, fe_real=1.82min, fe_mem=711.5M) ***
+#% Begin Load netlist data ... (date=03/28 16:47:58, mem=605.8M)
+*** Begin netlist parsing (mem=709.5M) ***
+Reading verilog netlist 'lock_netlist.v'
+
+*** Memory Usage v#1 (Current mem = 862.539M, initial mem = 291.699M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=862.5M) ***
+#% End Load netlist data ... (date=03/28 16:47:58, total cpu=0:00:00.2, real=0:00:00.0, peak res=710.4M, current mem=702.4M)
+Top level cell is lock.
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Building hierarchical netlist for Cell lock ...
+*** Netlist is unique.
+** info: there are 480 modules.
+** info: there are 27 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 1077.496M, initial mem = 291.699M) ***
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+/dev/null
+Extraction setup Started 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Reading timing constraints file '/dev/null' ...
+Current (total cpu=0:00:25.0, real=0:01:50, peak res=1050.3M, current mem=1050.2M)
+Total number of combinational cells: 316
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX6 INVXL INVX8
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X4 DLY4X1
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+default_emulate_constraint_mode
+Extraction setup Started 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Extraction setup Started 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Extraction setup Started 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+default_emulate_libset_max default_emulate_libset_min
+<CMD> read_sdc lock_sdc.sdc
+Current (total cpu=0:00:25.3, real=0:01:50, peak res=1080.8M, current mem=1040.9M)
+**WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File lock_sdc.sdc, Line 2).
+
+**WARN: (TCLCMD-1013):	The SDC set_operating_conditions assertion is not supported. Please use the Innovus setOpCond command to specify library and operating condition information. Use the setAnalysisMode command to control single vs. bestCase/worstCase vs. on-chip variation timing analysis. (File lock_sdc.sdc, Line 35).
+
+INFO (CTE): Reading of timing constraints file lock_sdc.sdc completed, with 2 WARNING
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1050.8M, current mem=1050.8M)
+Current (total cpu=0:00:25.3, real=0:01:50, peak res=1080.8M, current mem=1050.8M)
+Loading  (lock)
+Traverse HInst (lock)
+<CMD> report_timing
+**WARN: (IMPESI-3468):	User needs to specify -equivalent_waveform_model propagation first before specifying -waveform_compression_mode accurate|clock_detailed .
+AAE DB initialization (MEM=1289.99 CPU=0:00:00.0 REAL=0:00:00.0) 
+#################################################################################
+# Design Name: lock
+# Design Mode: 65nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Start delay calculation (fullDC) (1 T). (MEM=1142.48)
+/dev/null
+End delay calculation. (MEM=1147.08 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1139.08 CPU=0:00:00.1 REAL=0:00:00.0)
+Path 1: MET Late External Delay Assertion 
+Endpoint:   ready (v) checked with  leading edge of 'CLK'
+Beginpoint: x     (^) triggered by  leading edge of 'CLK'
+Path Groups: {CLK}
+Other End Arrival Time          0.000
+- External Delay                2.000
++ Phase Shift                  10.000
+- Uncertainty                   0.100
+= Required Time                 7.900
+- Arrival Time                  3.307
+= Slack Time                    4.593
+     Clock Rise Edge                      0.000
+     + Input Delay                        2.000
+     + Drive Adjustment                   0.028
+     = Beginpoint Arrival Time            2.028
+      -----------------------------------------------------------
+      Instance    Arc         Cell       Delay  Arrival  Required  
+                                                Time     Time  
+      -----------------------------------------------------------
+      -           x ^         -          -      2.028    6.620  
+      g383        A ^ -> Y v  CLKINVX1   0.021  2.049    6.642  
+      g380        B v -> Y ^  NAND2XL    0.054  2.103    6.696  
+      g370        C ^ -> Y v  NOR3X1     0.016  2.119    6.711  
+      g2          B v -> Y ^  NOR2XL     0.526  2.645    7.237  
+      drc_buf_sp  A ^ -> Y v  CLKINVX20  0.662  3.307    7.900  
+      -           ready v     -          0.000  3.307    7.900  
+      -----------------------------------------------------------
+
+<CMD> report_timing -path_type end_slack_only
+      ------------------------------------------------------------------------------------------------  
+       End Point                                  Slack      Cause                                      
+      ------------------------------------------------------------------------------------------------  
+      ready f                                    4.593      MET
+      ------------------------------------------------------------------------------------------------
+
+<CMD> report_timing -path_type end_slack_only > setup.rpt
+<CMD> report_timing -path_type end_slack_only -early > hold.rpt
+<CMD> exit
+
+*** Memory Usage v#1 (Current mem = 1104.871M, initial mem = 291.699M) ***
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPESI-3468          1  User needs to specify -equivalent_wavefo...
+WARNING   TCLCMD-1013          1  The SDC set_operating_conditions asserti...
+WARNING   TCLCMD-1461          1  Skipped unsupported command: %s          
+*** Message Summary: 3 warning(s), 0 error(s)
+
+--- Ending "Tempus Timing Signoff Solution" (totcpu=0:02:46, real=0:23:21, mem=1104.9M) ---

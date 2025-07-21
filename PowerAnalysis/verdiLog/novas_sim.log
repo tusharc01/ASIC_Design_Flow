@@ -1,0 +1,48 @@
+Invoking simulator...
+
+./simv -sml=verdi +UVM_VERDI_TRACE=UVM_AWARE +fsdb+gate=off -ucli2Proc -ucli
+debImport "-i" "-simflow" "-dbdir" "./simv.daidir"
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03_Full64; Runtime version U-2023.03_Full64;  Mar 28 17:29 2025
+
+*Verdi* Loading libsscore_vcs202303.so
+
+FSDB Dumper for VCS, Release Verdi_U-2023.03-SP1, Linux x86_64/64bit, 05/28/2023
+(C) 1996 - 2023 by Synopsys, Inc.
+
+*Verdi* : Create FSDB file '/home/nitrkl9/Documents/lock_files/PowerAnalysis/inter.fsdb'
+
+*Verdi* : Flush all FSDB Files at 0 ps.
+
+*Verdi* : Enable RPC Server(9658)
+
+srcTBInvokeSim
+Verdi>fsdbDumpvars 1 "testbench.u1"  +all +trace_process;fsdbDumpvars 1 "testbench"  +all +trace_process;fsdbDumpflush 
+
+*Verdi* : Begin traversing the scope (testbench.u1), layer (1).
+*Verdi* : Enable +trace_process and +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the scope (testbench), layer (1).
+*Verdi* : Enable +trace_process and +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Flush all FSDB Files at 0 ps.
+
+Verdi>run
+$finish called from file "tb_lock.v", line 63.
+$finish at simulation time               300000
+Simulation complete, time is 300000 ps.
+tb_lock.v, 63 :         #30 $finish;
+Verdi>report_power > power1
+invalid command name "report_power"
+Verdi>report_power > power1
+invalid command name "report_power"
+Verdi>report_power
+invalid command name "report_power"
+Verdi>report_power
+invalid command name "report_power"
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 300000 ps
+CPU Time:      0.060 seconds;       Data structure size:   0.0Mb
+Fri Mar 28 17:36:32 2025
+debExit

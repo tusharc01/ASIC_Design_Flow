@@ -1,0 +1,247 @@
+hal(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+hal: Options:   -cdslib /home/nitrkl9/Documents/lock_files/Simulation/cds.lib -logfile hal.log /home/nitrkl9/Documents/lock_files/Simulation/lock.v.
+hal: Workspace: /home/nitrkl9/Documents/lock_files/Simulation.
+hal: Date: Thu Mar 27 18:11:01 IST 2025.
+
+hal: Running on design source files.....
+hal: Snapshot:  worklib.lock:v.
+
+  ==========================================================================
+Compiling design 
+
+
+
+  ==========================================================================
+Performing lint checks 
+
+halcheck(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+visadev(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+module lock
+|
+halcheck: *N,PRTCNT (./lock.v,3|0): Module/Entity 'lock' contains '6' ports.
+halcheck: (./lock.v,3): Number of Input ports: 3.
+halcheck: (./lock.v,3): Number of Output ports: 3.
+`timescale 1ns/1ps
+|
+halcheck: *N,CDNOTE (./lock.v,1|0): The compiler directive '`timescale' is used in the RTL.
+  reg [2:0] state;
+|
+halcheck: *W,STYVAL (./lock.v,13|0): Numeric value '2' used for identifier 'state'. Use constants to avoid portability issues.
+  reg [2:0] next_state;
+|
+halcheck: *W,STYVAL (./lock.v,14|0): Numeric value '2' used for identifier 'next_state'. Use constants to avoid portability issues.
+  localparam s_reset=3'b000,
+|
+halcheck: *W,UCCONN (./lock.v,16|0): Lowercase characters used for identifier 's_reset'. Use uppercase characters for names of constants and user-defined types.
+             s1=3'b001,
+|
+halcheck: *N,IDLENG (./lock.v,17|0): Identifier name 's1' is not of appropriate length (4 to 16 characters).
+             s1=3'b001,
+|
+halcheck: *W,UCCONN (./lock.v,17|0): Lowercase characters used for identifier 's1'. Use uppercase characters for names of constants and user-defined types.
+             s2=3'b010,
+|
+halcheck: *N,IDLENG (./lock.v,18|0): Identifier name 's2' is not of appropriate length (4 to 16 characters).
+             s2=3'b010,
+|
+halcheck: *W,UCCONN (./lock.v,18|0): Lowercase characters used for identifier 's2'. Use uppercase characters for names of constants and user-defined types.
+             s3=3'b011,
+|
+halcheck: *N,IDLENG (./lock.v,19|0): Identifier name 's3' is not of appropriate length (4 to 16 characters).
+             s3=3'b011,
+|
+halcheck: *W,UCCONN (./lock.v,19|0): Lowercase characters used for identifier 's3'. Use uppercase characters for names of constants and user-defined types.
+             s4=3'b100,
+|
+halcheck: *N,IDLENG (./lock.v,20|0): Identifier name 's4' is not of appropriate length (4 to 16 characters).
+             s4=3'b100,
+|
+halcheck: *W,UCCONN (./lock.v,20|0): Lowercase characters used for identifier 's4'. Use uppercase characters for names of constants and user-defined types.
+             s5=3'b101,
+|
+halcheck: *N,IDLENG (./lock.v,21|0): Identifier name 's5' is not of appropriate length (4 to 16 characters).
+             s5=3'b101,
+|
+halcheck: *W,UCCONN (./lock.v,21|0): Lowercase characters used for identifier 's5'. Use uppercase characters for names of constants and user-defined types.
+             open=3'b110, 
+|
+halcheck: *W,UCCONN (./lock.v,22|0): Lowercase characters used for identifier 'open'. Use uppercase characters for names of constants and user-defined types.
+             open=3'b110, 
+|
+halcheck: *W,KEYWOD (./lock.v,22|0): VHDL reserved word 'open' used as an identifier or label.
+             s_error=3'b111;
+|
+halcheck: *W,UCCONN (./lock.v,23|0): Lowercase characters used for identifier 's_error'. Use uppercase characters for names of constants and user-defined types.
+  always @ (posedge clock, posedge reset) begin
+|
+halcheck: *W,NOBLKN (./lock.v,26|0): Each block should be labeled with a meaningful name.
+     if(reset)
+|
+halcheck: *W,NBGEND (./lock.v,27|0): Missing begin/end statement in the 'if' block.
+  always @ * begin
+|
+halcheck: *W,NOBLKN (./lock.v,33|0): Each block should be labeled with a meaningful name.
+    case(state)
+|
+halcheck: *W,CDEFCV (./lock.v,34|0): The case items of the case statement in module/design-unit lock cover all the numerical values of the case expression. The default clause is not required.
+halcheck: Total errors   = 0.
+halcheck: Total warnings = 15.
+
+  ==========================================================================
+Performing synthesizability checks 
+
+cfe64: 15.20.s086..-(): (c) Copyright 1995 - 2020 Cadence Design Systems, Inc.
+cfe64 Build : Mon Dec  7 22:53:08 IST 2020 ldvopt223
+halsynth: Loading design snapshot....
+halsynth: Traversing design hierarchy....
+      state <= next_state;
+|
+halsynth: *N,FSMIDN (./lock.v,30|0): In module/design-unit 'lock', FSM for state register 'state' has been recognized.
+      s1      : if(x==1'b0) begin 
+|
+halsynth: *W,TRNMBT (./lock.v,48|0): For the specified state '1', the state value changes by more than one bits on transition to state(s): 2, 7.
+                  next_state = s2; 
+|
+halsynth: (./lock.v,49|0): Source HDL information for the error/warning mentioned above.
+                  next_state = s_error;
+|
+halsynth: (./lock.v,55|0): Source HDL information for the error/warning mentioned above.
+      s2      : if(x==1'b1) begin 
+|
+halsynth: *W,TRNMBT (./lock.v,61|0): For the specified state '2', the state value changes by more than one bits on transition to state(s): 7.
+                  next_state = s_error;
+|
+halsynth: (./lock.v,68|0): Source HDL information for the error/warning mentioned above.
+      s3      : if(x==1'b0) begin 
+|
+halsynth: *W,TRNMBT (./lock.v,74|0): For the specified state '3', the state value changes by more than one bits on transition to state(s): 4.
+                  next_state = s4; 
+|
+halsynth: (./lock.v,75|0): Source HDL information for the error/warning mentioned above.
+      s4      : if(x==1'b1) begin 
+|
+halsynth: *W,TRNMBT (./lock.v,87|0): For the specified state '4', the state value changes by more than one bits on transition to state(s): 7.
+                  next_state = s_error;
+|
+halsynth: (./lock.v,94|0): Source HDL information for the error/warning mentioned above.
+      s5      : if(x==1'b1) begin 
+|
+halsynth: *W,TRNMBT (./lock.v,100|0): For the specified state '5', the state value changes by more than one bits on transition to state(s): 6.
+                  next_state = open; 
+|
+halsynth: (./lock.v,101|0): Source HDL information for the error/warning mentioned above.
+      open    : if(x==1'b0) begin 
+|
+halsynth: *W,TRNMBT (./lock.v,113|0): For the specified state '6', the state value changes by more than one bits on transition to state(s): 0.
+                  next_state = s_reset; 
+|
+halsynth: (./lock.v,114|0): Source HDL information for the error/warning mentioned above.
+      s_error  : if(x==1'b0) begin 
+|
+halsynth: *W,TRNMBT (./lock.v,126|0): For the specified state '7', the state value changes by more than one bits on transition to state(s): 0.
+                  next_state = s_reset; 
+|
+halsynth: (./lock.v,127|0): Source HDL information for the error/warning mentioned above.
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 7.
+
+  ==========================================================================
+Performing structural checks 
+
+halstruct(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+visadev(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+                  ready = 1'b0;
+|
+halstruct: *W,TPOUNR (./lock.v,135|0): Output 'ready' of top-level module is not a register.
+                  unlock = 1'b0;
+|
+halstruct: *W,TPOUNR (./lock.v,128|0): Output 'unlock' of top-level module is not a register.
+                  error = 1'b1; 
+|
+halstruct: *W,TPOUNR (./lock.v,136|0): Output 'error' of top-level module is not a register.
+      state <= next_state;
+|
+halstruct: *W,ASNRST (./lock.v,30|0): Flip-flop 'lock.state' has 'active_high' asynchronous set/reset 'reset' as against the recommended 'active_low' style.
+      state <= next_state;
+|
+halstruct: *N,FFASRT (./lock.v,30|0): Flip-flop 'state' has an asynchronous reset 'reset'.
+    input  wire      clock,
+|
+halstruct: *N,CLKINF (./lock.v,5|0): Signal 'lock.clock' was inferred as clock.
+halstruct: (./lock.v,5): Clock source is signal 'lock.clock'.
+halstruct: (./lock.v,30): Drives the flip-flop 'lock.state'.
+module lock
+|
+halstruct: *W,SYNASN (./lock.v,3|0): The module/design-unit 'lock' contains synchronous as well as asynchronous logic.
+halstruct: (./lock.v,136): One instance/occurence of asynchronous logic at 'lock.error'.
+halstruct: (./lock.v,30): One instance/occurence of synchronous logic at 'lock.state'.
+module lock
+|
+halstruct: *N,NUMDFF (./lock.v,3|0): Number of single-bit D flip-flops present in the hierarchy is 3.
+halstruct: Design facts generated in 'hal.design_facts'.
+halstruct: Total errors   = 0.
+halstruct: Total warnings = 5.
+
+  ==========================================================================
+
+Analysis summary :
+
+ Warnings : (27)
+  ASNRST (1)      CDEFCV (1)      KEYWOD (1)      NBGEND (1)     
+  NOBLKN (2)      STYVAL (2)      SYNASN (1)      TPOUNR (3)     
+  TRNMBT (7)      UCCONN (8)     
+
+ Notes    : (11)
+  CDNOTE (1)      CLKINF (1)      FFASRT (1)      FSMIDN (1)     
+  IDLENG (5)      NUMDFF (1)      PRTCNT (1)     
+
+Analysis complete.
+
+ ==========================================================================
+
+To analyze results, run following command :
+    ncbrowse -64bit -cdslib ./INCA_libs/irun.nc/cds.lib -hdlvar ./INCA_libs/irun.nc/hdl.var -sortby severity -sortby category -sortby tag hal.log
+
+    state <= next_state;
+|
+halstruct: *W,ASNRST (./lock.v,30|0): Flip-flop 'lock.state' has 'active_high' asynchronous set/reset 'reset' as against the recommended 'active_low' style.
+      state <= next_state;
+|
+halstruct: *N,FFASRT (./lock.v,30|0): Flip-flop 'state' has an asynchronous reset 'reset'.
+    input  wire      clock,
+|
+halstruct: *N,CLKINF (./lock.v,5|0): Signal 'lock.clock' was inferred as clock.
+halstruct: (./lock.v,5): Clock source is signal 'lock.clock'.
+halstruct: (./lock.v,30): Drives the flip-flop 'lock.state'.
+module lock
+|
+halstruct: *W,SYNASN (./lock.v,3|0): The module/design-unit 'lock' contains synchronous as well as asynchronous logic.
+halstruct: (./lock.v,136): One instance/occurence of asynchronous logic at 'lock.error'.
+halstruct: (./lock.v,30): One instance/occurence of synchronous logic at 'lock.state'.
+module lock
+|
+halstruct: *N,NUMDFF (./lock.v,3|0): Number of single-bit D flip-flops present in the hierarchy is 3.
+halstruct: Design facts generated in 'hal.design_facts'.
+halstruct: Total errors   = 0.
+halstruct: Total warnings = 5.
+
+  ==========================================================================
+
+Analysis summary :
+
+ Warnings : (27)
+  ASNRST (1)      CDEFCV (1)      KEYWOD (1)      NBGEND (1)     
+  NOBLKN (2)      STYVAL (2)      SYNASN (1)      TPOUNR (3)     
+  TRNMBT (7)      UCCONN (8)     
+
+ Notes    : (11)
+  CDNOTE (1)      CLKINF (1)      FFASRT (1)      FSMIDN (1)     
+  IDLENG (5)      NUMDFF (1)      PRTCNT (1)     
+
+Analysis complete.
+
+ ==========================================================================
+
+To analyze results, run following command :
+    ncbrowse -64bit -cdslib ./INCA_libs/irun.nc/cds.lib -hdlvar ./INCA_libs/irun.nc/hdl.var -sortby severity -sortby category -sortby tag hal.log
+

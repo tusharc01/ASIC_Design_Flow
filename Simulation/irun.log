@@ -1,0 +1,184 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Mar 27, 2025 at 18:08:27 IST
+irun
+	lock.v
+	tb_lock.v
+	-access +rwc
+	-gui
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+irun: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+irun: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+irun: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+irun: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+irun: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+ncvlog: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+ncvlog: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+ncvlog: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+ncvlog: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+file: lock.v
+	module worklib.lock:v
+		errors: 0, warnings: 0
+file: tb_lock.v
+	module worklib.testbench:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 4
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+irun: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+irun: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+irun: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+ncelab: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+ncelab: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+ncelab: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+ncelab: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		testbench
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+ncvlog_cg: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+ncvlog_cg: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+ncvlog_cg: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+ncvlog_cg: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+		worklib.lock:v <0x20aa553a>
+			streams:   3, words:  8488
+		worklib.testbench:v <0x1758769b>
+			streams:   5, words:  6158
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               8       8
+		Scalar wires:            6       -
+		Always blocks:           3       3
+		Initial blocks:          1       1
+		Pseudo assignments:      3       3
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.testbench:v
+SOFTINCLUDE /root/UMC_180/cds.lib
+|
+ncsim: *W,DLCPTH (/cad/cadence/IC618/share/cdssetup/cds.lib,8): cds.lib Permission denied on file '/root/UMC_180/cds.lib' (cds.lib command ignored).
+DEFINE analogLib $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+|
+ncsim: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,1): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/artist/analogLib' (cds.lib command ignored).
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+|
+ncsim: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,2): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdslib/basic' (cds.lib command ignored).
+DEFINE cdsDefTechLib $CDS_INST_DIR/tools/dfII/etc/cdsDefTechLib
+|
+ncsim: *W,DLCPTH (/home/nitrkl9/Desktop/UMC_180/cds.lib,3): cds.lib Invalid path '/cad/cadence/INCISIVE152/tools/dfII/etc/cdsDefTechLib' (cds.lib command ignored).
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /cad/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm testbench.clock testbench.error testbench.ready testbench.reset testbench.unlock testbench.x
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 300 NS + 0
+./tb_lock.v:63         #30 $finish;
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Mar 27, 2025 at 18:09:11 IST  (total: 00:00:44)

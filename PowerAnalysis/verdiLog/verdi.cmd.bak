@@ -1,0 +1,40 @@
+simSetSimulator "-vcssv" -exec "./simv" -args " " -uvmDebug on
+debImport "-i" "-simflow" "-dbdir" "./simv.daidir"
+srcTBInvokeSim
+verdiSetActWin -dock widgetDock_<Member>
+verdiWindowResize -win $_Verdi_1 "500" "182" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcHBSelect "testbench.u1" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "testbench" -win $_nTrace1
+srcHBSelect "testbench" -win $_nTrace1
+wvCreateWindow
+srcHBAddObjectToWave -clipboard
+wvDrop -win $_nWave3
+wvSetCursor -win $_nWave3 535.615171
+wvSetCursor -win $_nWave3 97.132285
+verdiDockWidgetMaximize -dock windowDock_nWave_3
+wvSelectGroup -win $_nWave3 {testbench}
+srcTBRunSim
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSelectGroup -win $_nWave3 {testbench}
+verdiSetActWin -win $_nWave3
+wvSetCursor -win $_nWave3 298561.514183
+wvSelectGroup -win $_nWave3 {testbench}
+wvSelectGroup -win $_nWave3 {testbench}
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+srcTBSimReset
+srcTBRunSim
+wvSetCursor -win $_nWave3 290760.266050
+wvSetOptions -win $_nWave3 -autoUpdate on
+wvCreateWindow
+debExit

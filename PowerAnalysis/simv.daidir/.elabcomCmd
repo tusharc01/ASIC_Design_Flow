@@ -1,0 +1,121 @@
+#!/bin/sh -f
+
+cd /home/nitrkl9/Documents/lock_files/PowerAnalysis
+export COLORTERM="truecolor"
+export DBUS_SESSION_BUS_ADDRESS="unix:abstract=/tmp/dbus-L618kGscrG,guid=2890e16dd6959eeb98f7433867e68146"
+export DBUS_STARTER_ADDRESS="unix:abstract=/tmp/dbus-L618kGscrG,guid=2890e16dd6959eeb98f7433867e68146"
+export DBUS_STARTER_BUS_TYPE="session"
+export DESKTOP_SESSION="gnome-classic"
+export DISABLE_LIBRARY_MAP_CHECK="1"
+export DISPLAY=":0"
+export FLEXLM_BORROWFILE="/home/nitrkl9/.vlsilab9.nitrkl.ac.in-borrow.txt"
+export GDMSESSION="gnome-classic"
+export GDM_LANG="en_IN.UTF-8"
+export GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+export GNOME_SHELL_SESSION_MODE="classic"
+export GNOME_TERMINAL_SCREEN="/org/gnome/Terminal/screen/e72ed602_b90b_44be_9468_b27f6109ca73"
+export GNOME_TERMINAL_SERVICE=":1.123"
+export HISTCONTROL="ignoredups"
+export HISTSIZE="1000"
+export HOME="/home/nitrkl9"
+export HOSTNAME="vlsilab9.nitrkl.ac.in"
+export IMSETTINGS_INTEGRATE_DESKTOP="yes"
+export IMSETTINGS_MODULE="none"
+export KDEDIRS="/usr"
+export LANG="en_IN.UTF-8"
+export LD_LIBRARY_PATH="/foundry/synopsys/vcs/vcs/U-2023.03/lib:/foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib:"
+export LESSOPEN="||/usr/bin/lesspipe.sh %s"
+export LM_LICENSE_FILE="27020@14.139.1.126"
+export LOADEDMODULES=""
+export LOGNAME="nitrkl9"
+export LS_COLORS="rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:"
+export MAIL="/var/spool/mail/nitrkl9"
+export MODULEPATH="/usr/share/Modules/modulefiles:/etc/modulefiles"
+export MODULESHOME="/usr/share/Modules"
+export NOVAS_ENABLE_NOBINDDOC_CHECK=""
+export NOVAS_LC_ALL="C"
+export NOVAS_NO_DUMP_LOGDIR="1"
+export OLDPWD
+export OVA_UUM="0"
+export PATH=".:/foundry/synopsys/verdi/U-2023.03-SP1/bin:/foundry/synopsys/vcs/vcs/U-2023.03/bin:/foundry/synopsys/design_compiler/syn/U-2022.12-SP1/bin:/foundry/synopsys/formality/fm/U-2022.12-SP1/bin:/foundry/synopsys/formality/fm/U-2022.12-SP2/bin:/foundry/synopsys/formality/fm/U-2022.12-SP2/bin:/foundry/synopsys/hspice/hspice/U-2023.03/hspice/bin:/foundry/synopsys/icc2/icc2/U-2022.12-SP3/bin:/foundry/synopsys/primepower/prime/U-2022.12-SP1/bin:/foundry/synopsys/fm02/fm/U-2022.12-SP2/bin:/foundry/synopsys/primetime/prime/U-2022.12-SP1/bin:/foundry/synopsys/primetime/prime/U-2022.12-SP3/bin:/foundry/synopsys/primepower/prime/U-2022.12-SP3/bin:/foundry/synopsys/testmax/testmax/U-2022.12-SP3/bin:/foundry/synopsys/testmax/testmax/U-2022.12-SP3/bin:/foundry/synopsys/VCS/vcs/T-2022.06-SP1-1/bin:/foundry/synopsys/tcad/sentaurus/T-2022.03-SP2/bin:/foundry/synopsys/Waveview/wv/T-2022.06-SP2-1/bin:/cad/icc2/icc2/U-2022.12-SP3/bin:/foundry/synopsys/verdi/U-2023.03-SP1/bin:/foundry/synopsys/vcs/vcs/U-2023.03/bin:/foundry/synopsys/design_compiler/syn/U-2022.12-SP1/bin:/foundry/synopsys/formality/fm/U-2022.12-SP1/bin:/foundry/synopsys/formality/fm/U-2022.12-SP2/bin:/foundry/synopsys/formality/fm/U-2022.12-SP2/bin:/foundry/synopsys/hspice/hspice/U-2023.03/hspice/bin:/foundry/synopsys/icc2/icc2/U-2022.12-SP3/bin:/foundry/synopsys/primepower/prime/U-2022.12-SP1/bin:/foundry/synopsys/fm02/fm/U-2022.12-SP2/bin:/foundry/synopsys/primetime/prime/U-2022.12-SP1/bin:/foundry/synopsys/primetime/prime/U-2022.12-SP3/bin:/foundry/synopsys/primepower/prime/U-2022.12-SP3/bin:/foundry/synopsys/testmax/testmax/U-2022.12-SP3/bin:/foundry/synopsys/testmax/testmax/U-2022.12-SP3/bin:/foundry/synopsys/VCS/vcs/T-2022.06-SP1-1/bin:/foundry/synopsys/tcad/sentaurus/T-2022.03-SP2/bin:/foundry/synopsys/Waveview/wv/T-2022.06-SP2-1/bin:/cad/icc2/icc2/U-2022.12-SP3/bin:/usr/lib64/qt-3.3/bin:/home/nitrkl9/perl5/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/nitrkl9/.local/bin:/home/nitrkl9/bin"
+export PERL5LIB="/home/nitrkl9/perl5/lib/perl5:"
+export PERL_LOCAL_LIB_ROOT=":/home/nitrkl9/perl5"
+export PERL_MB_OPT="--install_base /home/nitrkl9/perl5"
+export PERL_MM_OPT="INSTALL_BASE=/home/nitrkl9/perl5"
+export PWD="/home/nitrkl9/Documents/lock_files/PowerAnalysis"
+export QTDIR="/usr/lib64/qt-3.3"
+export QTINC="/usr/lib64/qt-3.3/include"
+export QTLIB="/usr/lib64/qt-3.3/lib"
+export QT_GRAPHICSSYSTEM_CHECKED="1"
+export QT_IM_MODULE="ibus"
+export QT_PLUGIN_PATH="/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins"
+export SCRIPT_NAME="vcs"
+export SCRNAME="vcs"
+export SESSION_MANAGER="local/unix:@/tmp/.ICE-unix/2543,unix/unix:/tmp/.ICE-unix/2543"
+export SHELL="/bin/bash"
+export SHLVL="4"
+export SNPS_INTERNAL_VCS_LINUX_OS="linux"
+export SNPS_VCS_CLANG_PATH="/foundry/synopsys/vcs/vcs/U-2023.03/linux64/clang"
+export SNPS_VCS_INTERNAL_CURR_PID="9101"
+export SNPS_VCS_INTERNAL_MAKE="make"
+export SNPS_VCS_INTERNAL_MAKE_OPT=""
+export SNPS_VCS_INTERNAL_MEMPRELOAD_USE_LIBC="1"
+export SNPS_VCS_INTERNAL_ROOT_PID="9101"
+export SNPS_VCS_INTERNAL_ROOT_START_TIME="1743163145.165660630"
+export SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW="1"
+export SSH_AGENT_PID="2673"
+export SSH_ASKPASS="/usr/libexec/openssh/gnome-ssh-askpass"
+export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+export SYNOPSYS_SIM="/foundry/synopsys/vcs/vcs/U-2023.03"
+export TERM="xterm-256color"
+export TOOL_HOME="/foundry/synopsys/vcs/vcs/U-2023.03/linux64"
+export TURBO_LOG_DIR="/tmp/vcs_20250328115905_9101"
+export UNAME="/bin/uname"
+export USER="nitrkl9"
+export USERNAME="nitrkl9"
+export VCS_ARCH="linux64"
+export VCS_ARG_ADDED_FOR_TMP="1"
+export VCS_COM="/foundry/synopsys/vcs/vcs/U-2023.03/linux64/bin/vcs1"
+export VCS_DEPTH="0"
+export VCS_EXEC_DONE="1"
+export VCS_HOME="/foundry/synopsys/vcs/vcs/U-2023.03"
+export VCS_MODE_FLAG="64"
+export VCS_MX_HOME_INTERNAL="1"
+export VCS_PATHMAP_PRELOAD_DONE="1"
+export VCS_USER_OPTIONS="tb_lock.v lock.v -debug_all -full64 -kdb"
+export VERDI_HOME="/foundry/synopsys/verdi/U-2023.03-SP1"
+export VMR_MODE_FLAG="64"
+export VTE_VERSION="5204"
+export WINDOWPATH="1"
+export XAUTHORITY="/run/gdm/auth-for-nitrkl9-FwJ3g9/database"
+export XDG_CURRENT_DESKTOP="GNOME-Classic:GNOME"
+export XDG_DATA_DIRS="/home/nitrkl9/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/"
+export XDG_MENU_PREFIX="gnome-"
+export XDG_RUNTIME_DIR="/run/user/1000"
+export XDG_SEAT="seat0"
+export XDG_SESSION_DESKTOP="gnome-classic"
+export XDG_SESSION_ID="1"
+export XDG_SESSION_TYPE="x11"
+export XDG_VTNR="1"
+export XMODIFIERS="@im=ibus"
+export _="/usr/bin/time"
+export sysc_uni_pwd="/home/nitrkl9/Documents/lock_files/PowerAnalysis"
+unset VERDI_STUDIO_MODE
+if [ -z "${ELABCOM_DIAGTOOL_PREFIX}" ] && [ -z "${ELABCOM_DIAGTOOL_POSTFIX}" ];
+then
+    unset TURBO_LOG_DIR ;\rm -rf simv.daidir/elabcomLog ;/foundry/synopsys/vcs/vcs/U-2023.03/linux64/bin/elabcom -logdir simv.daidir/elabcomLog  -simvdaidir simv.daidir  -lib simv.daidir/work  -saveLevel  -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -topfile simv.daidir/.elabcomTopFile -ssz -ssv -ssy  -Lf work +disable_message+C00388+C00389  >& /dev/null  && echo Success >& simv.daidir/.elabcomReport || echo Fail >& simv.daidir/.elabcomReport; \rm -rf simv.daidir/work.lib++ simv.daidir/kdb_libs/ 
+else
+    unset TURBO_LOG_DIR ;\rm -rf simv.daidir/elabcomLog ; ${ELABCOM_DIAGTOOL_PREFIX} /foundry/synopsys/vcs/vcs/U-2023.03/linux64/bin/elabcom -logdir simv.daidir/elabcomLog  -simvdaidir simv.daidir  ${ELABCOM_DIAGTOOL_POSTFIX}  -lib simv.daidir/work  -saveLevel  -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -topfile simv.daidir/.elabcomTopFile -ssz -ssv -ssy  -Lf work +disable_message+C00388+C00389 
+    status=$?
+    if [ "$status" == 0 ];
+    then
+        echo Success >& simv.daidir/.elabcomReport
+    else
+        echo Fail >& simv.daidir/.elabcomReport
+    fi
+
+ \rm -rf simv.daidir/work.lib++ simv.daidir/kdb_libs/ 
+fi
+
+
+sed -i -e 's/^ELAB=FALSE$/ELAB=TRUE/' simv.daidir/simv.kdb 

@@ -1,0 +1,114 @@
+0
+31
++itf+/foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/foundry/synopsys/vcs/vcs/U-2023.03/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/libvirsim.so /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/liberrorinf.so /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/libsnpsmalloc.so /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/foundry/synopsys/vcs/vcs/U-2023.03/include
+-Mxllcflags=
+-Xufe=2steps
+-debug_access+all+bc
+-debug_region+cell
+-full64
+-gen_obj
+-kdb
+-picarchive
+/foundry/synopsys/vcs/vcs/U-2023.03/linux64/bin/vcs1
+tb_lock.v
+lock.v
+67
+XMODIFIERS=@im=ibus
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/nitrkl9/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-nitrkl9-FwJ3g9/database
+WINDOWPATH=1
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VERDI_HOME=/foundry/synopsys/verdi/U-2023.03-SP1
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/foundry/synopsys/vcs/vcs/U-2023.03
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=nitrkl9
+UNAME=/bin/uname
+TOOL_HOME=/foundry/synopsys/vcs/vcs/U-2023.03/linux64
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=2673
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_CLANG_PATH=/foundry/synopsys/vcs/vcs/U-2023.03/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2543,unix/unix:/tmp/.ICE-unix/2543
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PERL_MM_OPT=INSTALL_BASE=/home/nitrkl9/perl5
+PERL_MB_OPT=--install_base /home/nitrkl9/perl5
+PERL_LOCAL_LIB_ROOT=:/home/nitrkl9/perl5
+PERL5LIB=/home/nitrkl9/perl5/lib/perl5:
+OVA_UUM=0
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.123
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/e72ed602_b90b_44be_9468_b27f6109ca73
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_IN.UTF-8
+GDMSESSION=gnome-classic
+DESKTOP_SESSION=gnome-classic
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-L618kGscrG,guid=2890e16dd6959eeb98f7433867e68146
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-L618kGscrG,guid=2890e16dd6959eeb98f7433867e68146
+COLORTERM=truecolor
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+0
+0
+3
+1743052930 lock.v
+1743052952 tb_lock.v
+1677384340 /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/vcsdp.tab
+4
+1677385575 /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/libvirsim.so
+1677385060 /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/liberrorinf.so
+1677385018 /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/libsnpsmalloc.so
+1677385055 /foundry/synopsys/vcs/vcs/U-2023.03/linux64/lib/libvfs.so
+1743163149 simv.daidir
+-1 partitionlib

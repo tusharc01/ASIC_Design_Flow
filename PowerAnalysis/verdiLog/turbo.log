@@ -1,0 +1,13 @@
+Command Line: /foundry/synopsys/verdi/U-2023.03-SP1/platform/LINUXAMD64/bin/Novas -i -simflow -simBin ./simv -simOpt  
+uname(Linux vlsilab9.nitrkl.ac.in 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+type= DS_SCOPE element= 2 field= 1
+VERILOG testbench
+VERILOG u1
+-----
+second field= DebussyLib
+third field= lock
+VERILOG testbench
+-----
+second field= DebussyLib
+third field= testbench
+au time 433.489242 16.799675 4.987984 delta 279752704 279752704 total 849969152 849969152

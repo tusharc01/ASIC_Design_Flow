@@ -1,0 +1,92 @@
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN )
+(DATE "Fri Mar 28 17:53:49 2025")
+(VENDOR "Synopsys, Inc")
+(PROGRAM_NAME "vcd2saif")
+(VERSION "U-2022.12-SP1")
+(DIVIDER / )
+(TIMESCALE 1 ps)
+(DURATION 295000)
+(INSTANCE testbench
+  (NET
+    (clock
+      (T0 150000) (T1 145000) (TX 0)
+      (TC 59) (IG 0)
+    )
+    (error
+      (T0 205000) (T1 90000) (TX 0)
+      (TC 22) (IG 0)
+    )
+    (ready
+      (T0 190000) (T1 105000) (TX 0)
+      (TC 6) (IG 0)
+    )
+    (reset
+      (T0 286000) (T1 9000) (TX 0)
+      (TC 2) (IG 0)
+    )
+    (unlock
+      (T0 265000) (T1 30000) (TX 0)
+      (TC 2) (IG 0)
+    )
+    (x
+      (T0 165000) (T1 130000) (TX 0)
+      (TC 14) (IG 0)
+    )
+  )
+  (INSTANCE u1
+    (NET
+      (clock
+        (T0 150000) (T1 145000) (TX 0)
+        (TC 59) (IG 0)
+      )
+      (error
+        (T0 205000) (T1 90000) (TX 0)
+        (TC 22) (IG 0)
+      )
+      (next_state\[0\]
+        (T0 170000) (T1 125000) (TX 0)
+        (TC 16) (IG 0)
+      )
+      (next_state\[1\]
+        (T0 140000) (T1 155000) (TX 0)
+        (TC 12) (IG 0)
+      )
+      (next_state\[2\]
+        (T0 155000) (T1 140000) (TX 0)
+        (TC 18) (IG 0)
+      )
+      (ready
+        (T0 190000) (T1 105000) (TX 0)
+        (TC 6) (IG 0)
+      )
+      (reset
+        (T0 286000) (T1 9000) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (state\[0\]
+        (T0 184000) (T1 110000) (TX 1000)
+        (TC 16) (IG 0)
+      )
+      (state\[1\]
+        (T0 164000) (T1 130000) (TX 1000)
+        (TC 10) (IG 0)
+      )
+      (state\[2\]
+        (T0 194000) (T1 100000) (TX 1000)
+        (TC 6) (IG 0)
+      )
+      (unlock
+        (T0 265000) (T1 30000) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (x
+        (T0 165000) (T1 130000) (TX 0)
+        (TC 14) (IG 0)
+      )
+    )
+  )
+)
+)

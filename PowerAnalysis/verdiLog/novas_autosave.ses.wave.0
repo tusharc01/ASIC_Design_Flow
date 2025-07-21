@@ -1,0 +1,60 @@
+Magic 271485
+Revision Verdi_U-2023.03-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1274 438 129 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/nitrkl9/Documents/lock_files/PowerAnalysis/inter.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 185793.696275
+cursor 300000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 7
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "u1"
+activeDirFile "" "/home/nitrkl9/Documents/lock_files/PowerAnalysis/inter.fsdb"
+addSignal -h 15 /testbench/u1/clock
+addSignal -h 15 /testbench/u1/reset
+addSignal -h 15 /testbench/u1/x
+addSignal -h 15 /testbench/u1/ready
+addSignal -h 15 /testbench/u1/unlock
+addSignal -h 15 /testbench/u1/error
+addGroup "testbench"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

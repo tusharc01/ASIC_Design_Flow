@@ -1,0 +1,14 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-c
+-q
+-nostdout
+-access
++rwc
+-ncelabargs
+-partialdesign
+-log
+./.hal-irun.log
+/home/nitrkl9/Documents/lock_files/Simulation/lock.v

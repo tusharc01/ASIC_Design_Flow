@@ -1,0 +1,20 @@
+/*  ------------------------------------------------------------- */
+/*                                                                */
+/* Copyright (c) 2003 Synopsys, Inc.  All Rights Reserved         */
+/* This information is provided pursuant to a license agreement   */
+/* that grants limited rights of access/use and requires that     */
+/* the information be treated as confidential.                    */
+/*                                                                */
+/*  ------------------------------------------------------------- */
+k_process_cell_fall             :  1.2549; /* average of 81 max=1.4393 [pc3t02d] min=0.7514 [pc3x13] */
+k_process_cell_rise             :  1.3072; /* average of 81 max=1.4667 [apc3d01] min=0.7356 [pc3x13] */
+k_temp_cell_fall                :  0.0013; /* average of 81 max=0.0019 [pc3o01] min=0.0003 [apc3d01] */
+k_temp_cell_rise                :  0.0012; /* average of 81 max=0.0016 [pc3t03] min=0.0003 [apc3d01] */
+k_volt_cell_fall                : -0.8527; /* average of 81 max=-0.5787 [pc3c01] min=-0.9911 [pc3o02] */
+k_volt_cell_rise                : -0.8895; /* average of 81 max=-0.5473 [pc3x13] min=-1.0274 [pc3o05] */
+k_volt_rise_transition          : -0.7948; /* average of 81 max=-0.3858 [pc3c01] min=-0.9405 [pc3t02u] */
+k_volt_fall_transition          : -0.7976; /* average of 81 max=-0.4209 [pc3c01] min=-1.0779 [pc3o05] */
+k_temp_rise_transition          :  0.0017; /* average of 81 max=0.0020 [pc3t05d] min=0.0014 [pc3d11u] */
+k_temp_fall_transition          :  0.0023; /* average of 81 max=0.0031 [pc3x13] min=0.0018 [pc3d21] */
+k_process_rise_transition       :  1.0618; /* average of 81 max=1.2297 [pc3t01] min=0.6250 [pc3c01] */
+k_process_fall_transition       :  1.2578; /* average of 81 max=1.5288 [pc3o04] min=0.6250 [pc3c03] */

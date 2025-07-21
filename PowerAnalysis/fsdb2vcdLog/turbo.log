@@ -1,0 +1,6 @@
+Command Line: /foundry/synopsys/verdi/U-2023.03-SP1/platform/LINUXAMD64/bin/fsdb2vcd inter.fsdb -o inter.vcd
+uname(Linux vlsilab9.nitrkl.ac.in 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+Load signals (0)-(300000) time 0.036223 0.001206 0.001141 delta 16318464 16318464 total 204947456 204947456
+Write signals (0)-(300000) time 0.003411 0.000137 0.000069 delta 0 0 total 204947456 204947456
+Unload (0)-(300000) time 0.000009 0.000006 0.000003 delta 0 0 total 204947456 204947456
+au time 0.216903 0.005237 0.005636 delta 29843456 29843456 total 159506432 159506432

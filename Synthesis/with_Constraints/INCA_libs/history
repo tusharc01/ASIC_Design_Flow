@@ -1,0 +1,5 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(27Mar2025:19:41:21):( ncverilog tb_lock.v lock_netlist.v +access+rw -v typical.v +gui )

@@ -1,0 +1,509 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.11-s111_1, built Mon Apr 26 02:27:38 PDT 2021
+Options: 
+Date:    Tue Apr 01 17:42:42 2025
+Host:    vlsilab9.nitrkl.ac.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (4cores*8cpus*1physical cpu*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB) (16187548KB)
+PID:     5823
+OS:      CentOS Linux release 7.9.2009 (Core)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (8 seconds elapsed).
+
+WARNING: This version of the tool is 1436 days old.
+@genus:root: 1> source syn.tcl
+Sourcing './syn.tcl' (Tue Apr 01 17:43:02 IST 2025)...
+#@ Begin verbose source ./syn.tcl
+@file(syn.tcl) 4: set DESIGN db_fsm
+@file(syn.tcl) 5: set GEN_EFF medium
+@file(syn.tcl) 6: set MAP_OPT_EFF high
+@file(syn.tcl) 7: set clockname clk
+@file(syn.tcl) 9: set DATE [clock format [clock seconds] -format "%b%d-%T"] 
+@file(syn.tcl) 10: set _OUTPUTS_PATH /home/nitrkl9/Documents/lock_files/PhysicalDesign/Syn/output_files
+@file(syn.tcl) 11: set _REPORTS_PATH /home/nitrkl9/Documents/lock_files/PhysicalDesign/Syn/report_files
+@file(syn.tcl) 12: set _LOG_PATH /home/nitrkl9/Documents/lock_files/PhysicalDesign/Syn/logs
+@file(syn.tcl) 14: set_db / .init_lib_search_path { /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff
+/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss}
+  Setting attribute of root '/': 'init_lib_search_path' =  /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff
+/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss
+@file(syn.tcl) 16: set_db / .script_search_path {. ./Scripts} 
+  Setting attribute of root '/': 'script_search_path' = . ./Scripts
+@file(syn.tcl) 17: set_db / .init_hdl_search_path {. ./RTL_source}
+  Setting attribute of root '/': 'init_hdl_search_path' = . ./RTL_source
+@file(syn.tcl) 18: set_db auto_ungroup none
+  Setting attribute of root '/': 'auto_ungroup' = none
+@file(syn.tcl) 27: set_db / .information_level 7 
+  Setting attribute of root '/': 'information_level' = 7
+@file(syn.tcl) 33: set_db / .library { /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_min.lib}
+
+Threads Configured:8
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'library_features' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib, Line 15)
+        : Check to see if this construct is really needed for synthesis. Many liberty constructs are not actually required.
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab4' (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib, Line 88858)
+        : Sequential timing checks, such as 'setup_rising' or 'hold_rising', on flop and latch cells require a clock pin. Verify that the 'clock' attribute of the clock pin is set to 'true' or that the clock pin has a 'clocked_on' attribute.
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab2' (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib, Line 128076)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab1' (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib, Line 211354)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'library_features' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 96)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 847)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 1187)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 951)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 1661)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 1897)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 1424)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 2134)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 2371)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 2607)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 2844)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 3088)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 3325)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 3561)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 3798)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 4035)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 4271)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 4508)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'pad_drivers' encountered. Ignoring (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 4745)
+Info    : Missing a function attribute in the output pin definition. [LBR-518]
+        : Functionality is missing at pin 'PAD' for the cell 'pc3d00'. (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib, Line 15200)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab4' (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib, Line 88865)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab2' (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib, Line 128091)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab1' (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib, Line 211382)
+Info    : Missing a function attribute in the output pin definition. [LBR-518]
+        : Functionality is missing at pin 'PAD' for the cell 'pc3d00'. (File /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_min.lib, Line 15290)
+
+  Message Summary for Library all 4 libraries:
+  ********************************************
+  Missing clock pin in the sequential cell. [LBR-525]: 6
+  Missing a function attribute in the output pin definition. [LBR-518]: 2
+  An unsupported construct was detected in this library. [LBR-40]: 190
+  ********************************************
+ 
+            Reading file '/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib'
+            Reading file '/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib'
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'tsl18fs120_scl_ss' and 'tsl18cio150_max'.
+        : This is a common source of delay calculation confusion and should be avoided.
+            Reading file '/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib'
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'tsl18fs120_scl_ss' and 'tsl18fs120_scl_ff'.
+            Reading file '/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_min.lib'
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'tsl18fs120_scl_ss' and 'tsl18cio150_min'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.620000, 125.000000) in library 'tsl18fs120_scl_ss.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.200000, 1.620000, 125.000000) in library 'tsl18cio150_max.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.980000, -40.000000) in library 'tsl18fs120_scl_ff.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (0.800000, 1.980000, -40.000000) in library 'tsl18cio150_min.lib'.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'pc3d00/PAD' has no function.
+        : If the remainder of this library cell's semantic checks are successful, it will be considered as a timing-model (because one of its outputs does not have a valid function.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'pc3d00/PAD' has no function.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb2/SO' has no function.
+Cell 'slbhb2' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        : This library has a valid test_cell function, but its regular cell function is either missing or not completely understood (for example, cell has a state_table construct). Consult your library vendor about why this cell is either missing or has an incorrectly specified cell non-test function. Comparing this cell to the other cells that do not display this Warning, can be helpful to debug the issue.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slchq4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slchq4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb1/SO' has no function.
+Cell 'slbhb1' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        Cell 'adiode' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+        Cell 'adiode' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slclq2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slclq2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb4/SO' has no function.
+Cell 'slbhb4' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slclq1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slclq1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnln4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        Cell 'cload1' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+        Cell 'cload1' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slchq1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slchq1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slchq2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slchq2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnln2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnhn2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnln1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnhn4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnhn1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slclq4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slclq4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Found libraries with and without pg_pin construct. [LBR-12]
+        : Libraries with and without pg_pin construct have been loaded.
+        : This can lead to issues later in the flow.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb2/SO' has no function.
+Cell 'slbhb2' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slchq4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slchq4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb1/SO' has no function.
+Cell 'slbhb1' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        Cell 'adiode' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+        Cell 'adiode' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slclq2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Cell 'slbhb4' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        Cell 'cload1' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+        Cell 'cload1' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aor211d1 and tsl18fs120_scl_ff/aor211d1).  Deleting (tsl18fs120_scl_ff/aor211d1).
+        : Library cell names must be unique.  Any duplicates will be deleted.  Only the first (as determined by the order of libraries) will be retained.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/invtd2 and tsl18fs120_scl_ff/invtd2).  Deleting (tsl18fs120_scl_ff/invtd2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/xn02d2 and tsl18fs120_scl_ff/xn02d2).  Deleting (tsl18fs120_scl_ff/xn02d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oai221d1 and tsl18fs120_scl_ff/oai221d1).  Deleting (tsl18fs120_scl_ff/oai221d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/nd13d2 and tsl18fs120_scl_ff/nd13d2).  Deleting (tsl18fs120_scl_ff/nd13d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oai322d2 and tsl18fs120_scl_ff/oai322d2).  Deleting (tsl18fs120_scl_ff/oai322d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/dfnrq2 and tsl18fs120_scl_ff/dfnrq2).  Deleting (tsl18fs120_scl_ff/dfnrq2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aor22d2 and tsl18fs120_scl_ff/aor22d2).  Deleting (tsl18fs120_scl_ff/aor22d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/sdpfb1 and tsl18fs120_scl_ff/sdpfb1).  Deleting (tsl18fs120_scl_ff/sdpfb1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aoim311d1 and tsl18fs120_scl_ff/aoim311d1).  Deleting (tsl18fs120_scl_ff/aoim311d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oai311d2 and tsl18fs120_scl_ff/oai311d2).  Deleting (tsl18fs120_scl_ff/oai311d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/senrb4 and tsl18fs120_scl_ff/senrb4).  Deleting (tsl18fs120_scl_ff/senrb4).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/inv0d2 and tsl18fs120_scl_ff/inv0d2).  Deleting (tsl18fs120_scl_ff/inv0d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/xr02d1 and tsl18fs120_scl_ff/xr02d1).  Deleting (tsl18fs120_scl_ff/xr02d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aoim211d4 and tsl18fs120_scl_ff/aoim211d4).  Deleting (tsl18fs120_scl_ff/aoim211d4).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/nr04d1 and tsl18fs120_scl_ff/nr04d1).  Deleting (tsl18fs120_scl_ff/nr04d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oaim21d2 and tsl18fs120_scl_ff/oaim21d2).  Deleting (tsl18fs120_scl_ff/oaim21d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/dl04d1 and tsl18fs120_scl_ff/dl04d1).  Deleting (tsl18fs120_scl_ff/dl04d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aon211d1 and tsl18fs120_scl_ff/aon211d1).  Deleting (tsl18fs120_scl_ff/aon211d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/sdbrb2 and tsl18fs120_scl_ff/sdbrb2).  Deleting (tsl18fs120_scl_ff/sdbrb2).
+  Setting attribute of root '/': 'library' =  /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_min.lib
+@file(syn.tcl) 35: read_libs -max_libs { /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib} \
+-min_libs { /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_min.lib}
+Freeing libraries in memory ( /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ff/tsl18fs120_scl_ff.lib /home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_min.lib)
+
+            Reading file '/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/lib_flow_ss/tsl18fs120_scl_ss.lib'
+            Reading file '/home/nitrkl9/Documents/lock_files/PhysicalDesign/dependencies/synthesis/models/tsl18cio150_max.lib'
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'tsl18fs120_scl_ss' and 'tsl18cio150_max'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.620000, 125.000000) in library 'tsl18fs120_scl_ss.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.200000, 1.620000, 125.000000) in library 'tsl18cio150_max.lib'.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'pc3d00/PAD' has no function.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb2/SO' has no function.
+Cell 'slbhb2' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slchq4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slchq4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb1/SO' has no function.
+Cell 'slbhb1' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        Cell 'adiode' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+        Cell 'adiode' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slclq2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slclq2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slbhb4/SO' has no function.
+Cell 'slbhb4' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slclq1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slclq1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnln4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        Cell 'cload1' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+        Cell 'cload1' has no outputs.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slchq1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slchq1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slchq2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slchq2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnln2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnhn2/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnln1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnhn4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slnhn1/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Info    : An output library pin lacks a function attribute. [LBR-41]
+        : Output pin 'slclq4/SO' has no function.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slclq4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+@file(syn.tcl) 44: puts "load RTL"
+load RTL
+@file(syn.tcl) 45: set FILE_LIST  {lock.v}
+@file(syn.tcl) 46: read_hdl $FILE_LIST
+            Reading Verilog file 'lock.v'
+@file(syn.tcl) 48: puts "elobrate design"
+elobrate design
+@file(syn.tcl) 49: elaborate $DESIGN
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'ZN' in libcell 'xn02d2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+        : The 'timing_sense' attribute will be respected.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'ZN' in libcell 'xn02d2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A2' and 'ZN' in libcell 'xn02d2'.
+        : Setting the 'timing_sense' to non_unate.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'ZN' in libcell 'xn02d2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'ZN' in libcell 'xn02d2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A1' and 'ZN' in libcell 'xn02d2'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'Z' in libcell 'xr02d1' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'Z' in libcell 'xr02d1' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A2' and 'Z' in libcell 'xr02d1'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'Z' in libcell 'xr02d1' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'Z' in libcell 'xr02d1' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A1' and 'Z' in libcell 'xr02d1'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SD' and 'Q' in libcell 'slbhb2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slbhb2'.
+        : The library cell is sequential and it has a combinational arc involving at least one pin that is only used in scan mode.  You can enable such arcs by setting root-level attribute "ignore_scan_combinational_arcs" to false, but that will deem the cell unusable.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SC' and 'Q' in libcell 'slbhb2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slbhb2'.
+Info    : Setting the maximum print count of this message to 10 if information_level is less than 9. [LBR-161]
+        : To print all the warning messages, set the information_level to 9.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_QN_n61' between pins 'SD' and 'QN' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n63' between pins 'SC' and 'QN' in libcell 'slbhb2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'QN' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n94' between pins 'SC' and 'QN' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slchq4'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slchq4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slchq4'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slchq4'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slnlb2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_QN_n61' between pins 'SD' and 'QN' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n63' between pins 'SC' and 'QN' in libcell 'slnlb2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'QN' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n94' between pins 'SC' and 'QN' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slnlq2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slnlq2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slnlq2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slnlq2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'S' and 'ZN' in libcell 'mi02d4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'su01d1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'su01d1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'su01d1'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slnhq2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slnhq2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slnhq2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A3' and 'Z' in libcell 'xr03d2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A2' and 'Z' in libcell 'xr03d2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A1' and 'Z' in libcell 'xr03d2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ad01d1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ad01d1'.
+Warning : Libcell will be treated as a timing model. [LBR-158]
+        : Lib_pin 'bh01d1/I' has no incoming arcs.
+        : Ensure that the relevant timing arcs are defined in the Liberty model of the libcell.
+Error   : Could not find an HDL design. [CDFG-210] [elaborate]
+        : The design is 'db_fsm'.
+        : This error may happen if you read a set of files, and you try to elaborate a design which description is not part of the files read. To fix this, check the name of the design you want to elaborate, or check if you have read all the expected RTL files.
+UM:   flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   elaborate
+#@ End verbose source ./syn.tcl
+1
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 38s, ST: 12s, FG: 12s, CPU: 5.8%}, MEM {curr: 1.0G, peak: 1.3G, phys curr: 0.3G, phys peak: 0.3G}, SYS {load: 0.3, cpu: 8, total: 15.4G, free: 12.2G}

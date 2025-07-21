@@ -1,0 +1,1889 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Tue Apr  1 18:29:33 2025
+Host:		vlsilab9.nitrkl.ac.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading PVS 20.11 fill procedures
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC_BEST RC_WORST
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'apc3d01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03ed' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b21eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b25eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3d00' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Loading view definition file from /home/nitrkl9/Documents/lock_files/PhysicalDesign/PD_GUI/lock.enc.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.02min, real=0.02min, mem=18.3M, fe_cpu=0.26min, fe_real=0.43min, fe_mem=811.7M) ***
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'or04d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'or04d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'an02d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'an02d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'nd02da' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'nd02da' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'dl03d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'dl03d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'invtd7' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'invtd7' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'slnht2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'slnht2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'nr03d7' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'nr03d7' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPTS-282):	Cell 'pt3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t02u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t02d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t01u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t01d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3o03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3o02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3o01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t05u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t05d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t05' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t04u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t04d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t04' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (EMS-27):	Message (IMPTS-282) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+**WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading preference file /home/nitrkl9/Documents/lock_files/PhysicalDesign/PD_GUI/lock.enc.dat/gui.pref.tcl ...
+**WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading place ...
+**WARN: (IMPEXT-2662):	Cap table /home/nitrkl9/Documents/lock_files/PhysicalDesign/PD_GUI/lock.enc.dat/libs/mmmc/SCL_NEW_26092019_basic.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+**WARN: (IMPEXT-2662):	Cap table /home/nitrkl9/Documents/lock_files/PhysicalDesign/PD_GUI/lock.enc.dat/libs/mmmc/SCL_NEW_26092019_basic.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+MAX_DELAY MIN_DELAY
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+
+
+ERROR: **ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+
+**ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 31)
+
+**ERROR: (IMPSYT-6300):	Failed to execute command 'source'. For more details, refer to error message: **ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+
+
+ERROR: **ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+
+**ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 31)
+
+**ERROR: (IMPSYT-6300):	Failed to execute command 'source'. For more details, refer to error message: **ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> is_common_ui_mode
+<CMD> restoreDesign /home/nitrkl9/Documents/lock_files/PhysicalDesign/PD_GUI/lock.enc.dat lock
+% Begin load design ... (date=04/01 18:30:11, mem=1020.6M)
+
+
+ERROR: **ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+
+**ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 31)
+
+**ERROR: (IMPSYT-6300):	Failed to execute command 'source'. For more details, refer to error message: **ERROR: (IMPIMEX-7031):	restoreDesign more than once in the same Innovus session is dangerous and not recommended. Some internal state of applications or global settings cannot be reset, so it's not reliable enough in real flow. If you are just experimenting and/or debugging and accept the risks, you can set the global restore_db_stop_at_design_in_memory to 0 and try again.
+
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> setNanoRouteMode -quiet -routeInsertAntennaDiode 1
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven 1
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven 1
+<CMD> setNanoRouteMode -quiet -drouteEndIteration 1
+**WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven true
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven true
+Running Native NanoRoute ...
+<CMD> routeDesign -globalDetail
+#routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1023.78 (MB), peak = 1027.86 (MB)
+#WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+**INFO: User settings:
+setNanoRouteMode -drouteEndIteration                            1
+setNanoRouteMode -extractThirdPartyCompatible                   false
+setNanoRouteMode -grouteExpTdUseTifTimingEngineForImportDesign  true
+setNanoRouteMode -routeAntennaCellName                          ADIODE
+setNanoRouteMode -routeBottomRoutingLayer                       1
+setNanoRouteMode -routeInsertAntennaDiode                       true
+setNanoRouteMode -routeTopRoutingLayer                          4
+setNanoRouteMode -routeWithSiDriven                             true
+setNanoRouteMode -routeWithTimingDriven                         true
+setNanoRouteMode -timingEngine                                  {}
+setExtractRCMode -engine                                        preRoute
+setDelayCalMode -engine                                         aae
+setDelayCalMode -ignoreNetLoad                                  false
+
+#RC_WORST has no qx tech file defined
+#No active RC corner or QRC tech file is missing.
+#**INFO: setDesignMode -flowEffort standard
+#**INFO: multi-cut via swapping will not be performed after routing.
+#**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+Begin checking placement ... (start mem=1209.0M, init mem=1247.2M)
+*info: Placed = 22            
+*info: Unplaced = 0           
+Placement Density:0.05%(502/975823)
+Placement Density (including fixed std cells):0.05%(502/975823)
+Finished checkPlace (total: cpu=0:00:00.1, real=0:00:00.0; vio checks: cpu=0:00:00.0, real=0:00:00.0; mem=1247.2M)
+#WARNING (NRIG-87) Timing file "" not found, resetting timing engine to default for this session.
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=1247.2M) ***
+
+globalDetailRoute
+
+#Start globalDetailRoute on Tue Apr  1 18:31:09 2025
+#
+#Warning: design is detail-routed. Trial route is skipped!
+#create default rule from bind_ndr_rule rule=0x7f91b9e2c480 0x7f919cd00018
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/clock of net clock because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/reset of net reset because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/x of net x because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/ready of net ready because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/unlock of net unlock because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/error of net error because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#num needed restored net=0
+#need_extraction net=0 (total=30)
+#WARNING (NRDB-976) The TRACK STEP 0.5600 for preferred direction tracks is smaller than the PITCH 0.8400 for LAYER M3. This will cause routability problems for NanoRoute.
+#NanoRoute Version 20.14-s095_1 NR210411-1939/20_14-UB
+#Total number of trivial nets (e.g. < 2 pins) = 6 (skipped).
+#Total number of routable nets = 24.
+#Total number of nets in the design = 30.
+#24 routable nets have routed wires.
+#No nets have been global routed.
+#Start routing data preparation on Tue Apr  1 18:31:09 2025
+#
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.620.
+#Voltage range [0.000 - 1.620] has 28 nets.
+#Voltage range [1.620 - 1.620] has 1 net.
+#Voltage range [0.000 - 0.000] has 1 net.
+#Rebuild pin access data for design.
+#WARNING (NRDB-1028) Some option affecting pin access calculation is set by the user. Pin access is to be recalculated. This incurs runtime.
+#Initial pin access analysis.
+#Detail pin access analysis.
+# M1           H   Track-Pitch = 0.5600    Line-2-Via Pitch = 0.4850
+# M2           V   Track-Pitch = 0.5600    Line-2-Via Pitch = 0.5600
+# M3           H   Track-Pitch = 0.5600    Line-2-Via Pitch = 0.5600
+# TOP_M        V   Track-Pitch = 1.1200    Line-2-Via Pitch = 0.9500
+#Monitoring time of adding inner blkg by smac
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1064.85 (MB), peak = 1097.96 (MB)
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer M2's pitch = 0.5600.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1067.95 (MB), peak = 1097.96 (MB)
+#
+#Finished routing data preparation on Tue Apr  1 18:31:09 2025
+#
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 9.69 (MB)
+#Total memory = 1068.06 (MB)
+#Peak memory = 1097.96 (MB)
+#
+#
+#Start global routing on Tue Apr  1 18:31:09 2025
+#
+#
+#Start global routing initialization on Tue Apr  1 18:31:09 2025
+#
+#WARNING (NRGR-22) Design is already detail routed.
+#Routing data preparation, pin analysis, global routing and track assignment statistics:
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 9.79 (MB)
+#Total memory = 1068.13 (MB)
+#Peak memory = 1097.96 (MB)
+#Start reading timing information from file .timing_file_12590.tif.gz ...
+#WARNING (NRCM-25) File .timing_file_12590.tif.gz does not exist.
+#WARNING (NRDB-187) Cannot open file .timing_file_12590.tif.gz.
+#WARNING (NRDB-121) No slack were found on nets, SI driven not effective.
+#
+#Start Detail Routing..
+#start 1st optimization iteration ...
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1074.84 (MB), peak = 1097.96 (MB)
+#Complete Detail Routing.
+#Total wire length = 776 um.
+#Total half perimeter of net bounding box = 649 um.
+#Total wire length on LAYER M1 = 132 um.
+#Total wire length on LAYER M2 = 403 um.
+#Total wire length on LAYER M3 = 218 um.
+#Total wire length on LAYER TOP_M = 23 um.
+#Total number of vias = 144
+#Up-Via Summary (total 144):
+#           
+#-----------------------
+# M1                 97
+# M2                 43
+# M3                  4
+#-----------------------
+#                   144 
+#
+#Total number of DRC violations = 0
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 4.84 (MB)
+#Total memory = 1072.97 (MB)
+#Peak memory = 1097.96 (MB)
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#
+#Start Post Route wire spreading..
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1076.70 (MB), peak = 1097.96 (MB)
+#CELL_VIEW lock,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#
+#Start data preparation for wire spreading...
+#
+#Data preparation is done on Tue Apr  1 18:31:09 2025
+#
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#
+#Start Post Route Wire Spread.
+#Done with 0 horizontal wires in 9 hboxes and 1 vertical wires in 9 hboxes.
+#Complete Post Route Wire Spread.
+#
+#Total wire length = 776 um.
+#Total half perimeter of net bounding box = 649 um.
+#Total wire length on LAYER M1 = 132 um.
+#Total wire length on LAYER M2 = 403 um.
+#Total wire length on LAYER M3 = 218 um.
+#Total wire length on LAYER TOP_M = 23 um.
+#Total number of vias = 144
+#Up-Via Summary (total 144):
+#           
+#-----------------------
+# M1                 97
+# M2                 43
+# M3                  4
+#-----------------------
+#                   144 
+#
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1078.08 (MB), peak = 1097.96 (MB)
+#CELL_VIEW lock,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1078.08 (MB), peak = 1097.96 (MB)
+#CELL_VIEW lock,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#Post Route wire spread is done.
+#Total wire length = 776 um.
+#Total half perimeter of net bounding box = 649 um.
+#Total wire length on LAYER M1 = 132 um.
+#Total wire length on LAYER M2 = 403 um.
+#Total wire length on LAYER M3 = 218 um.
+#Total wire length on LAYER TOP_M = 23 um.
+#Total number of vias = 144
+#Up-Via Summary (total 144):
+#           
+#-----------------------
+# M1                 97
+# M2                 43
+# M3                  4
+#-----------------------
+#                   144 
+#
+#detailRoute Statistics:
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 8.05 (MB)
+#Total memory = 1076.18 (MB)
+#Peak memory = 1097.96 (MB)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:00:01
+#Elapsed time = 00:00:01
+#Increased memory = 49.77 (MB)
+#Total memory = 1084.23 (MB)
+#Peak memory = 1097.96 (MB)
+#Number of warnings = 15
+#Total number of warnings = 19
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Tue Apr  1 18:31:09 2025
+#
+#Default setup view is reset to WORST_CASE.
+#Default setup view is reset to WORST_CASE.
+#routeDesign: cpu time = 00:00:01, elapsed time = 00:00:01, memory = 1082.90 (MB), peak = 1097.96 (MB)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> setNanoRouteMode -quiet -routeInsertAntennaDiode 1
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven 1
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven 1
+**WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven true
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven true
+Running Native NanoRoute ...
+<CMD> routeDesign -globalDetail
+#routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1082.94 (MB), peak = 1097.96 (MB)
+#WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+**INFO: User settings:
+setNanoRouteMode -drouteEndIteration                            1
+setNanoRouteMode -extractThirdPartyCompatible                   false
+setNanoRouteMode -grouteExpTdUseTifTimingEngineForImportDesign  true
+setNanoRouteMode -routeAntennaCellName                          ADIODE
+setNanoRouteMode -routeBottomRoutingLayer                       1
+setNanoRouteMode -routeInsertAntennaDiode                       true
+setNanoRouteMode -routeTopRoutingLayer                          4
+setNanoRouteMode -routeWithSiDriven                             true
+setNanoRouteMode -routeWithTimingDriven                         true
+setNanoRouteMode -timingEngine                                  {}
+setExtractRCMode -engine                                        preRoute
+setDelayCalMode -engine                                         aae
+setDelayCalMode -ignoreNetLoad                                  false
+
+#RC_WORST has no qx tech file defined
+#No active RC corner or QRC tech file is missing.
+#**INFO: setDesignMode -flowEffort standard
+#**INFO: multi-cut via swapping will not be performed after routing.
+#**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+Begin checking placement ... (start mem=1289.4M, init mem=1297.4M)
+*info: Placed = 22            
+*info: Unplaced = 0           
+Placement Density:0.05%(502/975823)
+Placement Density (including fixed std cells):0.05%(502/975823)
+Finished checkPlace (total: cpu=0:00:00.0, real=0:00:00.0; vio checks: cpu=0:00:00.0, real=0:00:00.0; mem=1297.4M)
+#WARNING (NRIG-87) Timing file "" not found, resetting timing engine to default for this session.
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=1297.4M) ***
+
+globalDetailRoute
+
+#Start globalDetailRoute on Tue Apr  1 18:31:11 2025
+#
+#Warning: design is detail-routed. Trial route is skipped!
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/clock of net clock because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/reset of net reset because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/x of net x because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/ready of net ready because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/unlock of net unlock because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#WARNING (NRIG-39) NanoRoute cannot route to pin PIN/error of net error because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+#num needed restored net=0
+#need_extraction net=0 (total=30)
+#WARNING (NRDB-976) The TRACK STEP 0.5600 for preferred direction tracks is smaller than the PITCH 0.8400 for LAYER M3. This will cause routability problems for NanoRoute.
+#NanoRoute Version 20.14-s095_1 NR210411-1939/20_14-UB
+#Total number of trivial nets (e.g. < 2 pins) = 6 (skipped).
+#Total number of routable nets = 24.
+#Total number of nets in the design = 30.
+#24 routable nets have routed wires.
+#No nets have been global routed.
+#Start routing data preparation on Tue Apr  1 18:31:11 2025
+#
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.620.
+#Voltage range [0.000 - 1.620] has 28 nets.
+#Voltage range [1.620 - 1.620] has 1 net.
+#Voltage range [0.000 - 0.000] has 1 net.
+#Rebuild pin access data for design.
+#Initial pin access analysis.
+#Detail pin access analysis.
+# M1           H   Track-Pitch = 0.5600    Line-2-Via Pitch = 0.4850
+# M2           V   Track-Pitch = 0.5600    Line-2-Via Pitch = 0.5600
+# M3           H   Track-Pitch = 0.5600    Line-2-Via Pitch = 0.5600
+# TOP_M        V   Track-Pitch = 1.1200    Line-2-Via Pitch = 0.9500
+#Monitoring time of adding inner blkg by smac
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1088.54 (MB), peak = 1122.11 (MB)
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer M2's pitch = 0.5600.
+#Using automatically generated G-grids.
+#Done routing data preparation.
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1090.44 (MB), peak = 1122.11 (MB)
+#
+#Finished routing data preparation on Tue Apr  1 18:31:11 2025
+#
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 5.93 (MB)
+#Total memory = 1090.44 (MB)
+#Peak memory = 1122.11 (MB)
+#
+#
+#Start global routing on Tue Apr  1 18:31:11 2025
+#
+#
+#Start global routing initialization on Tue Apr  1 18:31:11 2025
+#
+#WARNING (NRGR-22) Design is already detail routed.
+#Routing data preparation, pin analysis, global routing and track assignment statistics:
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 5.94 (MB)
+#Total memory = 1090.44 (MB)
+#Peak memory = 1122.11 (MB)
+#Start reading timing information from file .timing_file_12590.tif.gz ...
+#WARNING (NRCM-25) File .timing_file_12590.tif.gz does not exist.
+#WARNING (NRDB-187) Cannot open file .timing_file_12590.tif.gz.
+#WARNING (NRDB-121) No slack were found on nets, SI driven not effective.
+#
+#Start Detail Routing..
+#start 1st optimization iteration ...
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1092.60 (MB), peak = 1122.11 (MB)
+#Complete Detail Routing.
+#Total wire length = 776 um.
+#Total half perimeter of net bounding box = 649 um.
+#Total wire length on LAYER M1 = 132 um.
+#Total wire length on LAYER M2 = 403 um.
+#Total wire length on LAYER M3 = 218 um.
+#Total wire length on LAYER TOP_M = 23 um.
+#Total number of vias = 144
+#Up-Via Summary (total 144):
+#           
+#-----------------------
+# M1                 97
+# M2                 43
+# M3                  4
+#-----------------------
+#                   144 
+#
+#Total number of DRC violations = 0
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 0.26 (MB)
+#Total memory = 1090.70 (MB)
+#Peak memory = 1122.11 (MB)
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#
+#Start Post Route wire spreading..
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1092.31 (MB), peak = 1122.11 (MB)
+#CELL_VIEW lock,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#
+#Start data preparation for wire spreading...
+#
+#Data preparation is done on Tue Apr  1 18:31:11 2025
+#
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#
+#Start Post Route Wire Spread.
+#Done with 0 horizontal wires in 9 hboxes and 1 vertical wires in 9 hboxes.
+#Complete Post Route Wire Spread.
+#
+#Total wire length = 776 um.
+#Total half perimeter of net bounding box = 649 um.
+#Total wire length on LAYER M1 = 132 um.
+#Total wire length on LAYER M2 = 403 um.
+#Total wire length on LAYER M3 = 218 um.
+#Total wire length on LAYER TOP_M = 23 um.
+#Total number of vias = 144
+#Up-Via Summary (total 144):
+#           
+#-----------------------
+# M1                 97
+# M2                 43
+# M3                  4
+#-----------------------
+#                   144 
+#
+#
+#Start DRC checking..
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1092.39 (MB), peak = 1122.11 (MB)
+#CELL_VIEW lock,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#   number of violations = 0
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1092.39 (MB), peak = 1122.11 (MB)
+#CELL_VIEW lock,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#Post Route wire spread is done.
+#Total wire length = 776 um.
+#Total half perimeter of net bounding box = 649 um.
+#Total wire length on LAYER M1 = 132 um.
+#Total wire length on LAYER M2 = 403 um.
+#Total wire length on LAYER M3 = 218 um.
+#Total wire length on LAYER TOP_M = 23 um.
+#Total number of vias = 144
+#Up-Via Summary (total 144):
+#           
+#-----------------------
+# M1                 97
+# M2                 43
+# M3                  4
+#-----------------------
+#                   144 
+#
+#detailRoute Statistics:
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 0.05 (MB)
+#Total memory = 1090.49 (MB)
+#Peak memory = 1122.11 (MB)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 2.68 (MB)
+#Total memory = 1088.10 (MB)
+#Peak memory = 1122.11 (MB)
+#Number of warnings = 14
+#Total number of warnings = 35
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Tue Apr  1 18:31:11 2025
+#
+#Default setup view is reset to WORST_CASE.
+#Default setup view is reset to WORST_CASE.
+#routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1088.05 (MB), peak = 1122.11 (MB)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.1) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+AAE DB initialization (MEM=1316.62 CPU=0:00:00.0 REAL=0:00:00.0) 
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1316.62)
+Total number of fetched objects 28
+End delay calculation. (MEM=1351.82 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1324.74 CPU=0:00:00.1 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+Deleted 0 physical inst  (cell - / prefix -).
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1315.2M)" ...
+No user-set net weight.
+Net fanout histogram:
+2		: 12 (42.9%) nets
+3		: 4 (14.3%) nets
+4     -	14	: 12 (42.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: clkGateAware pinGuide congEffort=auto gpeffort=medium 
+#std cell=22 (0 fixed + 22 movable) #buf cell=0 #inv cell=3 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=28 #term=91 #term/net=3.25, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=6
+stdCell: 22 single + 0 double + 0 multi
+Total standard cell length = 0.0896 (mm), area = 0.0005 (mm^2)
+Estimated cell power/ground rail width = 0.700 um
+Average module density = 0.001.
+Density for the design = 0.001.
+       = stdcell_area 160 sites (502 um^2) / alloc_area 311168 sites (975823 um^2).
+Pin Density = 0.0002924.
+            = total # of pins 91 / total area 311168.
+=== lastAutoLevel = 9 
+**WARN: (IMPSP-9531):	Turning off clkGateAware when timingDriven is off
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1285.2M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1285.2M
+Iteration  3: Total net bbox = 6.458e-02 (2.68e-02 3.78e-02)
+              Est.  stn bbox = 6.748e-02 (2.78e-02 3.97e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+Iteration  4: Total net bbox = 1.518e-02 (7.47e-03 7.71e-03)
+              Est.  stn bbox = 1.592e-02 (7.85e-03 8.08e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+Iteration  5: Total net bbox = 3.814e-03 (1.80e-03 2.01e-03)
+              Est.  stn bbox = 3.987e-03 (1.88e-03 2.11e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+Iteration  6: Total net bbox = 2.059e-01 (1.30e-01 7.59e-02)
+              Est.  stn bbox = 2.167e-01 (1.38e-01 7.91e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  7: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+Iteration  8: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  9: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1286.6M
+Iteration 10: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration 11: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1286.6M
+Iteration 12: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1286.6M
+Iteration 13: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.3 real = 0:00:01.0 mem = 1293.1M
+Iteration 14: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1293.1M
+*** cost = 7.878e+03 (3.94e+03 3.94e+03) (cpu for global=0:00:00.6) real=0:00:02.0***
+Solver runtime cpu: 0:00:00.2 real: 0:00:00.2
+Core Placement runtime cpu: 0:00:00.5 real: 0:00:02.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:27.4 mem=1309.1M) ***
+Total net bbox length = 7.878e+03 (3.938e+03 3.940e+03) (ext = 7.268e+03)
+Move report: Detail placement moves 22 insts, mean move: 2.36 um, max move: 5.47 um 
+	Max move on inst (g374): (615.09, 622.94) --> (614.88, 617.68)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1309.1MB
+Summary Report:
+Instances move: 22 (out of 22 movable)
+Instances flipped: 0
+Mean displacement: 2.36 um
+Max displacement: 5.47 um (Instance: g374) (615.092, 622.94) -> (614.88, 617.68)
+	Length: 8 sites, height: 1 rows, site name: CoreSite, cell type: aor311d1
+Total net bbox length = 7.836e+03 (3.907e+03 3.929e+03) (ext = 7.244e+03)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1309.1MB
+*** Finished refinePlace (0:00:27.4 mem=1309.1M) ***
+*** End of Placement (cpu=0:00:00.7, real=0:00:02.0, mem=1299.1M) ***
+default core: bins with density > 0.750 =  0.00 % ( 0 / 324 )
+Density distribution unevenness ratio = 99.679%
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1314.39)
+Total number of fetched objects 28
+End delay calculation. (MEM=1341.6 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1341.6 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] M1 has single uniform track structure
+[NR-eGR] M2 has single uniform track structure
+[NR-eGR] M3 has single uniform track structure
+[NR-eGR] TOP_M has single uniform track structure
+[NR-eGR] Read 4382 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 489
+[NR-eGR] #PG Blockages       : 4382
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=24  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 24 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 24 net(s) in layer range [1, 4]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 6.216000e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (1)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]      M1  (1)         1( 0.00%)   ( 0.00%) 
+[NR-eGR]      M2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]      M3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]   TOP_M  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                1( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.04 seconds, mem = 1340.1M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1340.09 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1340.09 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1340.09 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1340.09 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1340.09 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1340.09 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR]     M1  (1H) length: 1.019200e+02um, number of vias: 91
+[NR-eGR]     M2  (2V) length: 3.388000e+02um, number of vias: 47
+[NR-eGR]     M3  (3H) length: 2.038400e+02um, number of vias: 0
+[NR-eGR]  TOP_M  (4V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 6.445600e+02um, number of vias: 138
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 2.072000e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.01 seconds, mem = 1340.1M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.1, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 2, mem = 1280.1M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-9531           1  Turning off clkGateAware when timingDriv...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPPSP-1003         16  Found use of '%s'. This will continue to...
+*** Message Summary: 20 warning(s), 0 error(s)
+
+<CMD> setMultiCpuUsage -localCpu 4 -cpuPerRemoteHost 1 -remoteHost 0 -keepLicense true
+Setting releaseMultiCpuLicenseMode to false.
+<CMD> setDistributeHost -local
+The timeout for a remote job to respond is 3600 seconds.
+Submit command for task runs will be: local
+<CMD> setMultiCpuUsage -localCpu 4 -cpuPerRemoteHost 1 -remoteHost 0 -keepLicense true
+Setting releaseMultiCpuLicenseMode to false.
+<CMD> setDistributeHost -local
+The timeout for a remote job to respond is 3600 seconds.
+Submit command for task runs will be: local
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Multithreaded Timing Analysis is initialized with 4 threads
+
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.1) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1397.02)
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 28
+End delay calculation. (MEM=1572.23 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1572.23 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+Deleted 0 physical inst  (cell - / prefix -).
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1562.7M)" ...
+No user-set net weight.
+Net fanout histogram:
+2		: 12 (42.9%) nets
+3		: 4 (14.3%) nets
+4     -	14	: 12 (42.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: clkGateAware pinGuide congEffort=auto gpeffort=medium 
+#std cell=22 (0 fixed + 22 movable) #buf cell=0 #inv cell=3 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=28 #term=91 #term/net=3.25, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=6
+stdCell: 22 single + 0 double + 0 multi
+Total standard cell length = 0.0896 (mm), area = 0.0005 (mm^2)
+Average module density = 0.001.
+Density for the design = 0.001.
+       = stdcell_area 160 sites (502 um^2) / alloc_area 311168 sites (975823 um^2).
+Pin Density = 0.0002924.
+            = total # of pins 91 / total area 311168.
+Enabling multi-CPU acceleration with 4 CPU(s) for placement
+=== lastAutoLevel = 9 
+**WARN: (IMPSP-9531):	Turning off clkGateAware when timingDriven is off
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1468.7M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1468.7M
+Iteration  3: Total net bbox = 6.458e-02 (2.68e-02 3.78e-02)
+              Est.  stn bbox = 6.748e-02 (2.78e-02 3.97e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1470.1M
+Iteration  4: Total net bbox = 1.518e-02 (7.47e-03 7.71e-03)
+              Est.  stn bbox = 1.592e-02 (7.85e-03 8.08e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1470.1M
+Iteration  5: Total net bbox = 3.814e-03 (1.80e-03 2.01e-03)
+              Est.  stn bbox = 3.987e-03 (1.88e-03 2.11e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1470.1M
+Iteration  6: Total net bbox = 2.059e-01 (1.30e-01 7.59e-02)
+              Est.  stn bbox = 2.167e-01 (1.38e-01 7.91e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1502.2M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  7: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1534.2M
+Iteration  8: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1534.2M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  9: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1534.2M
+Iteration 10: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1534.2M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration 11: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1535.2M
+Iteration 12: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1535.2M
+Iteration 13: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.3 real = 0:00:01.0 mem = 1540.6M
+Iteration 14: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1540.6M
+*** cost = 7.878e+03 (3.94e+03 3.94e+03) (cpu for global=0:00:00.7) real=0:00:02.0***
+Placement multithread real runtime: 0:00:02.0 with 4 threads.
+Solver runtime cpu: 0:00:00.2 real: 0:00:00.2
+Core Placement runtime cpu: 0:00:00.6 real: 0:00:02.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:29.9 mem=1540.6M) ***
+Total net bbox length = 7.878e+03 (3.938e+03 3.940e+03) (ext = 7.268e+03)
+Move report: Detail placement moves 22 insts, mean move: 2.36 um, max move: 5.47 um 
+	Max move on inst (g374): (615.09, 622.94) --> (614.88, 617.68)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1540.6MB
+Summary Report:
+Instances move: 22 (out of 22 movable)
+Instances flipped: 0
+Mean displacement: 2.36 um
+Max displacement: 5.47 um (Instance: g374) (615.092, 622.94) -> (614.88, 617.68)
+	Length: 8 sites, height: 1 rows, site name: CoreSite, cell type: aor311d1
+Total net bbox length = 7.836e+03 (3.907e+03 3.929e+03) (ext = 7.244e+03)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1540.6MB
+*** Finished refinePlace (0:00:29.9 mem=1540.6M) ***
+*** End of Placement (cpu=0:00:00.8, real=0:00:02.0, mem=1531.6M) ***
+default core: bins with density > 0.750 =  0.00 % ( 0 / 324 )
+Density distribution unevenness ratio = 99.679%
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1545.91)
+Total number of fetched objects 28
+End delay calculation. (MEM=1697.12 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1697.12 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] M1 has single uniform track structure
+[NR-eGR] M2 has single uniform track structure
+[NR-eGR] M3 has single uniform track structure
+[NR-eGR] TOP_M has single uniform track structure
+[NR-eGR] Read 4382 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 489
+[NR-eGR] #PG Blockages       : 4382
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=24  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 24 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 24 net(s) in layer range [1, 4]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 6.216000e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (1)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]      M1  (1)         1( 0.00%)   ( 0.00%) 
+[NR-eGR]      M2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]      M3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]   TOP_M  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                1( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.05 seconds, mem = 1719.6M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1719.61 MB )
+[NR-eGR] Started Export all nets (4T) ( Curr Mem: 1719.61 MB )
+[NR-eGR] Finished Export all nets (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1719.61 MB )
+[NR-eGR] Started Set wire vias (4T) ( Curr Mem: 1719.61 MB )
+[NR-eGR] Finished Set wire vias (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1719.61 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1719.61 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR]     M1  (1H) length: 1.019200e+02um, number of vias: 91
+[NR-eGR]     M2  (2V) length: 3.388000e+02um, number of vias: 47
+[NR-eGR]     M3  (3H) length: 2.038400e+02um, number of vias: 0
+[NR-eGR]  TOP_M  (4V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 6.445600e+02um, number of vias: 138
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 2.072000e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.01 seconds, mem = 1719.6M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.1, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 2, mem = 1542.6M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-9531           1  Turning off clkGateAware when timingDriv...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPPSP-1003         16  Found use of '%s'. This will continue to...
+*** Message Summary: 20 warning(s), 0 error(s)
+
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1557.3)
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 28
+End delay calculation. (MEM=1692.45 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1692.45 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+Deleted 0 physical inst  (cell - / prefix -).
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1682.9M)" ...
+No user-set net weight.
+Net fanout histogram:
+2		: 12 (42.9%) nets
+3		: 4 (14.3%) nets
+4     -	14	: 12 (42.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: clkGateAware pinGuide congEffort=auto gpeffort=medium 
+#std cell=22 (0 fixed + 22 movable) #buf cell=0 #inv cell=3 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=28 #term=91 #term/net=3.25, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=6
+stdCell: 22 single + 0 double + 0 multi
+Total standard cell length = 0.0896 (mm), area = 0.0005 (mm^2)
+Average module density = 0.001.
+Density for the design = 0.001.
+       = stdcell_area 160 sites (502 um^2) / alloc_area 311168 sites (975823 um^2).
+Pin Density = 0.0002924.
+            = total # of pins 91 / total area 311168.
+Enabling multi-CPU acceleration with 4 CPU(s) for placement
+=== lastAutoLevel = 9 
+**WARN: (IMPSP-9531):	Turning off clkGateAware when timingDriven is off
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1554.9M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1554.9M
+Iteration  3: Total net bbox = 6.458e-02 (2.68e-02 3.78e-02)
+              Est.  stn bbox = 6.748e-02 (2.78e-02 3.97e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1556.4M
+Iteration  4: Total net bbox = 1.518e-02 (7.47e-03 7.71e-03)
+              Est.  stn bbox = 1.592e-02 (7.85e-03 8.08e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1556.4M
+Iteration  5: Total net bbox = 3.814e-03 (1.80e-03 2.01e-03)
+              Est.  stn bbox = 3.987e-03 (1.88e-03 2.11e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1556.4M
+Iteration  6: Total net bbox = 2.059e-01 (1.30e-01 7.59e-02)
+              Est.  stn bbox = 2.167e-01 (1.38e-01 7.91e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1588.4M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  7: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1620.4M
+Iteration  8: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1620.4M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  9: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1620.4M
+Iteration 10: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1620.4M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration 11: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1622.8M
+Iteration 12: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1622.8M
+Iteration 13: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.3 real = 0:00:00.0 mem = 1628.2M
+Iteration 14: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1628.2M
+*** cost = 7.878e+03 (3.94e+03 3.94e+03) (cpu for global=0:00:00.7) real=0:00:00.0***
+Placement multithread real runtime: 0:00:00.0 with 4 threads.
+Solver runtime cpu: 0:00:00.2 real: 0:00:00.2
+Core Placement runtime cpu: 0:00:00.6 real: 0:00:00.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:31.2 mem=1628.2M) ***
+Total net bbox length = 7.878e+03 (3.938e+03 3.940e+03) (ext = 7.268e+03)
+Move report: Detail placement moves 22 insts, mean move: 2.36 um, max move: 5.47 um 
+	Max move on inst (g374): (615.09, 622.94) --> (614.88, 617.68)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1628.2MB
+Summary Report:
+Instances move: 22 (out of 22 movable)
+Instances flipped: 0
+Mean displacement: 2.36 um
+Max displacement: 5.47 um (Instance: g374) (615.092, 622.94) -> (614.88, 617.68)
+	Length: 8 sites, height: 1 rows, site name: CoreSite, cell type: aor311d1
+Total net bbox length = 7.836e+03 (3.907e+03 3.929e+03) (ext = 7.244e+03)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1628.2MB
+*** Finished refinePlace (0:00:31.3 mem=1628.2M) ***
+*** End of Placement (cpu=0:00:00.8, real=0:00:00.0, mem=1621.2M) ***
+default core: bins with density > 0.750 =  0.00 % ( 0 / 324 )
+Density distribution unevenness ratio = 99.679%
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1633.27)
+Total number of fetched objects 28
+End delay calculation. (MEM=1770.48 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1770.48 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] M1 has single uniform track structure
+[NR-eGR] M2 has single uniform track structure
+[NR-eGR] M3 has single uniform track structure
+[NR-eGR] TOP_M has single uniform track structure
+[NR-eGR] Read 4382 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 489
+[NR-eGR] #PG Blockages       : 4382
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=24  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 24 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 24 net(s) in layer range [1, 4]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 6.216000e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (1)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]      M1  (1)         1( 0.00%)   ( 0.00%) 
+[NR-eGR]      M2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]      M3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]   TOP_M  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                1( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.05 seconds, mem = 1793.0M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1792.98 MB )
+[NR-eGR] Started Export all nets (4T) ( Curr Mem: 1792.98 MB )
+[NR-eGR] Finished Export all nets (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1792.98 MB )
+[NR-eGR] Started Set wire vias (4T) ( Curr Mem: 1792.98 MB )
+[NR-eGR] Finished Set wire vias (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1792.98 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1792.98 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR]     M1  (1H) length: 1.019200e+02um, number of vias: 91
+[NR-eGR]     M2  (2V) length: 3.388000e+02um, number of vias: 47
+[NR-eGR]     M3  (3H) length: 2.038400e+02um, number of vias: 0
+[NR-eGR]  TOP_M  (4V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 6.445600e+02um, number of vias: 138
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 2.072000e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.01 seconds, mem = 1793.0M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.1, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 2, mem = 1629.0M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-9531           1  Turning off clkGateAware when timingDriv...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPPSP-1003         16  Found use of '%s'. This will continue to...
+*** Message Summary: 20 warning(s), 0 error(s)
+
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1635.67)
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 28
+End delay calculation. (MEM=1794.88 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1794.88 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+Deleted 0 physical inst  (cell - / prefix -).
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1785.4M)" ...
+No user-set net weight.
+Net fanout histogram:
+2		: 12 (42.9%) nets
+3		: 4 (14.3%) nets
+4     -	14	: 12 (42.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: clkGateAware pinGuide congEffort=auto gpeffort=medium 
+#std cell=22 (0 fixed + 22 movable) #buf cell=0 #inv cell=3 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=28 #term=91 #term/net=3.25, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=6
+stdCell: 22 single + 0 double + 0 multi
+Total standard cell length = 0.0896 (mm), area = 0.0005 (mm^2)
+Average module density = 0.001.
+Density for the design = 0.001.
+       = stdcell_area 160 sites (502 um^2) / alloc_area 311168 sites (975823 um^2).
+Pin Density = 0.0002924.
+            = total # of pins 91 / total area 311168.
+Enabling multi-CPU acceleration with 4 CPU(s) for placement
+=== lastAutoLevel = 9 
+**WARN: (IMPSP-9531):	Turning off clkGateAware when timingDriven is off
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1645.4M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1645.4M
+Iteration  3: Total net bbox = 6.458e-02 (2.68e-02 3.78e-02)
+              Est.  stn bbox = 6.748e-02 (2.78e-02 3.97e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1645.4M
+Iteration  4: Total net bbox = 1.518e-02 (7.47e-03 7.71e-03)
+              Est.  stn bbox = 1.592e-02 (7.85e-03 8.08e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1645.4M
+Iteration  5: Total net bbox = 3.814e-03 (1.80e-03 2.01e-03)
+              Est.  stn bbox = 3.987e-03 (1.88e-03 2.11e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1645.4M
+Iteration  6: Total net bbox = 2.059e-01 (1.30e-01 7.59e-02)
+              Est.  stn bbox = 2.167e-01 (1.38e-01 7.91e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1677.4M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  7: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1709.4M
+Iteration  8: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1709.4M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  9: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1709.4M
+Iteration 10: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1709.4M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration 11: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1709.4M
+Iteration 12: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1709.4M
+Iteration 13: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.3 real = 0:00:01.0 mem = 1714.8M
+Iteration 14: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1714.8M
+*** cost = 7.878e+03 (3.94e+03 3.94e+03) (cpu for global=0:00:00.7) real=0:00:01.0***
+Placement multithread real runtime: 0:00:01.0 with 4 threads.
+Solver runtime cpu: 0:00:00.2 real: 0:00:00.2
+Core Placement runtime cpu: 0:00:00.5 real: 0:00:01.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:36.1 mem=1714.8M) ***
+Total net bbox length = 7.878e+03 (3.938e+03 3.940e+03) (ext = 7.268e+03)
+Move report: Detail placement moves 22 insts, mean move: 2.36 um, max move: 5.47 um 
+	Max move on inst (g374): (615.09, 622.94) --> (614.88, 617.68)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1714.8MB
+Summary Report:
+Instances move: 22 (out of 22 movable)
+Instances flipped: 0
+Mean displacement: 2.36 um
+Max displacement: 5.47 um (Instance: g374) (615.092, 622.94) -> (614.88, 617.68)
+	Length: 8 sites, height: 1 rows, site name: CoreSite, cell type: aor311d1
+Total net bbox length = 7.836e+03 (3.907e+03 3.929e+03) (ext = 7.244e+03)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1714.8MB
+*** Finished refinePlace (0:00:36.2 mem=1714.8M) ***
+*** End of Placement (cpu=0:00:00.8, real=0:00:01.0, mem=1707.8M) ***
+default core: bins with density > 0.750 =  0.00 % ( 0 / 324 )
+Density distribution unevenness ratio = 99.679%
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1721.62)
+Total number of fetched objects 28
+End delay calculation. (MEM=1891.91 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1891.91 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] M1 has single uniform track structure
+[NR-eGR] M2 has single uniform track structure
+[NR-eGR] M3 has single uniform track structure
+[NR-eGR] TOP_M has single uniform track structure
+[NR-eGR] Read 4382 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 489
+[NR-eGR] #PG Blockages       : 4382
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=24  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 24 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 24 net(s) in layer range [1, 4]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 6.216000e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (1)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]      M1  (1)         1( 0.00%)   ( 0.00%) 
+[NR-eGR]      M2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]      M3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]   TOP_M  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                1( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.05 seconds, mem = 1914.4M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1914.41 MB )
+[NR-eGR] Started Export all nets (4T) ( Curr Mem: 1914.41 MB )
+[NR-eGR] Finished Export all nets (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1914.41 MB )
+[NR-eGR] Started Set wire vias (4T) ( Curr Mem: 1914.41 MB )
+[NR-eGR] Finished Set wire vias (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1914.41 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1914.41 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR]     M1  (1H) length: 1.019200e+02um, number of vias: 91
+[NR-eGR]     M2  (2V) length: 3.388000e+02um, number of vias: 47
+[NR-eGR]     M3  (3H) length: 2.038400e+02um, number of vias: 0
+[NR-eGR]  TOP_M  (4V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 6.445600e+02um, number of vias: 138
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 2.072000e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.01 seconds, mem = 1914.4M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.1, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 1, mem = 1716.4M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-9531           1  Turning off clkGateAware when timingDriv...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPPSP-1003         16  Found use of '%s'. This will continue to...
+*** Message Summary: 20 warning(s), 0 error(s)
+
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1723.09)
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 28
+End delay calculation. (MEM=1882.3 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1882.3 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+Deleted 0 physical inst  (cell - / prefix -).
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1872.8M)" ...
+No user-set net weight.
+Net fanout histogram:
+2		: 12 (42.9%) nets
+3		: 4 (14.3%) nets
+4     -	14	: 12 (42.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: clkGateAware pinGuide congEffort=auto gpeffort=medium 
+#std cell=22 (0 fixed + 22 movable) #buf cell=0 #inv cell=3 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=28 #term=91 #term/net=3.25, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=6
+stdCell: 22 single + 0 double + 0 multi
+Total standard cell length = 0.0896 (mm), area = 0.0005 (mm^2)
+Average module density = 0.001.
+Density for the design = 0.001.
+       = stdcell_area 160 sites (502 um^2) / alloc_area 311168 sites (975823 um^2).
+Pin Density = 0.0002924.
+            = total # of pins 91 / total area 311168.
+Enabling multi-CPU acceleration with 4 CPU(s) for placement
+=== lastAutoLevel = 9 
+**WARN: (IMPSP-9531):	Turning off clkGateAware when timingDriven is off
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1728.8M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1728.8M
+Iteration  3: Total net bbox = 6.458e-02 (2.68e-02 3.78e-02)
+              Est.  stn bbox = 6.748e-02 (2.78e-02 3.97e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1728.8M
+Iteration  4: Total net bbox = 1.518e-02 (7.47e-03 7.71e-03)
+              Est.  stn bbox = 1.592e-02 (7.85e-03 8.08e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1728.8M
+Iteration  5: Total net bbox = 3.814e-03 (1.80e-03 2.01e-03)
+              Est.  stn bbox = 3.987e-03 (1.88e-03 2.11e-03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1728.8M
+Iteration  6: Total net bbox = 2.059e-01 (1.30e-01 7.59e-02)
+              Est.  stn bbox = 2.167e-01 (1.38e-01 7.91e-02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1760.8M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  7: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1792.8M
+Iteration  8: Total net bbox = 7.486e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.737e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1792.8M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration  9: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1794.2M
+Iteration 10: Total net bbox = 7.487e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.738e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1794.2M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Iteration 11: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1795.6M
+Iteration 12: Total net bbox = 7.492e+03 (3.78e+03 3.71e+03)
+              Est.  stn bbox = 7.743e+03 (3.91e+03 3.83e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1795.6M
+Iteration 13: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.3 real = 0:00:00.0 mem = 1800.0M
+Iteration 14: Total net bbox = 7.878e+03 (3.94e+03 3.94e+03)
+              Est.  stn bbox = 8.155e+03 (4.07e+03 4.08e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1800.0M
+*** cost = 7.878e+03 (3.94e+03 3.94e+03) (cpu for global=0:00:00.7) real=0:00:00.0***
+Placement multithread real runtime: 0:00:00.0 with 4 threads.
+Solver runtime cpu: 0:00:00.2 real: 0:00:00.2
+Core Placement runtime cpu: 0:00:00.5 real: 0:00:00.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:37.5 mem=1800.0M) ***
+Total net bbox length = 7.878e+03 (3.938e+03 3.940e+03) (ext = 7.268e+03)
+Move report: Detail placement moves 22 insts, mean move: 2.36 um, max move: 5.47 um 
+	Max move on inst (g374): (615.09, 622.94) --> (614.88, 617.68)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1800.0MB
+Summary Report:
+Instances move: 22 (out of 22 movable)
+Instances flipped: 0
+Mean displacement: 2.36 um
+Max displacement: 5.47 um (Instance: g374) (615.092, 622.94) -> (614.88, 617.68)
+	Length: 8 sites, height: 1 rows, site name: CoreSite, cell type: aor311d1
+Total net bbox length = 7.836e+03 (3.907e+03 3.929e+03) (ext = 7.244e+03)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1800.0MB
+*** Finished refinePlace (0:00:37.5 mem=1800.0M) ***
+*** End of Placement (cpu=0:00:00.8, real=0:00:01.0, mem=1792.0M) ***
+default core: bins with density > 0.750 =  0.00 % ( 0 / 324 )
+Density distribution unevenness ratio = 99.679%
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.12590 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: lock
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (4 T). (MEM=1807.38)
+Total number of fetched objects 28
+End delay calculation. (MEM=1972.67 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1972.67 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+*** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+ThreeLayerMode is on. Timing-driven placement option disabled.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] M1 has single uniform track structure
+[NR-eGR] M2 has single uniform track structure
+[NR-eGR] M3 has single uniform track structure
+[NR-eGR] TOP_M has single uniform track structure
+[NR-eGR] Read 4382 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 489
+[NR-eGR] #PG Blockages       : 4382
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=24  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 24 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 24 net(s) in layer range [1, 4]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 6.216000e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (1)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]      M1  (1)         1( 0.00%)   ( 0.00%) 
+[NR-eGR]      M2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]      M3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]   TOP_M  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                1( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.05 seconds, mem = 1995.2M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1995.17 MB )
+[NR-eGR] Started Export all nets (4T) ( Curr Mem: 1995.17 MB )
+[NR-eGR] Finished Export all nets (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1995.17 MB )
+[NR-eGR] Started Set wire vias (4T) ( Curr Mem: 1995.17 MB )
+[NR-eGR] Finished Set wire vias (4T) ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1995.17 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1995.17 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR]     M1  (1H) length: 1.019200e+02um, number of vias: 91
+[NR-eGR]     M2  (2V) length: 3.388000e+02um, number of vias: 47
+[NR-eGR]     M3  (3H) length: 2.038400e+02um, number of vias: 0
+[NR-eGR]  TOP_M  (4V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 6.445600e+02um, number of vias: 138
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 2.072000e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.01 seconds, mem = 1995.2M
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.1, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 1, mem = 1802.2M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-9531           1  Turning off clkGateAware when timingDriv...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPPSP-1003         16  Found use of '%s'. This will continue to...
+*** Message Summary: 20 warning(s), 0 error(s)
+
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Apr  1 18:32:12 2025
+  Total CPU time:     0:00:39
+  Total real time:    0:02:41
+  Peak memory (main): 1242.05MB
+
+
+*** Memory Usage v#1 (Current mem = 1806.262M, initial mem = 284.301M) ***
+*** Message Summary: 1685 warning(s), 9 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:38.8, real=0:02:39, mem=1806.3M) ---

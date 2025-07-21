@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+tb_lock.v
+lock_netlist.v
++access+rw
+-v
+typical.v
++gui

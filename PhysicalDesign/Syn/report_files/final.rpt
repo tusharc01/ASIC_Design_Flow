@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/nitrkl9/Documents/lock_files/PhysicalDesign/Syn
+QoS Summary for lock
+==========================================================================================
+Metric                          generic         map             syn_opt         final          
+==========================================================================================
+Slack (ps):                     3,700           1,090           1,648           1,648
+  R2R (ps):                     6,711           5,650           6,271           6,271
+  I2R (ps):                     5,836           5,369           4,716           4,716
+  R2O (ps):                     4,324           1,589           3,224           3,224
+  I2O (ps):                     3,700           1,090           1,648           1,648
+  CG  (ps):                  no_value        no_value        no_value        no_value
+TNS (ps):                           0               0               0               0
+  R2R (ps):                         0               0               0               0
+  I2R (ps):                         0               0               0               0
+  R2O (ps):                         0               0               0               0
+  I2O (ps):                         0               0               0               0
+  CG  (ps):                  no_value        no_value        no_value        no_value
+Failing Paths:                      0               0               0               0
+Cell Area:                        896             624             736             736
+Total Cell Area:                  896             624             736             736
+Leaf Instances:                    35              27              25              25
+Total Instances:                   35              27              25              25
+Utilization (%):                 0.00            0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value        no_value
+==========================================================================================
+CPU  Runtime (h:m:s):        00:30:09        00:30:02        00:30:00        00:30:00
+Real Runtime (h:m:s):        00:30:20        00:30:01        00:30:01        00:30:00
+CPU  Elapsed (h:m:s):        00:30:13        00:30:15        00:30:15        00:30:15
+Real Elapsed (h:m:s):        00:30:22        00:30:23        00:30:24        00:30:24
+Memory (MB):                  1180.88         1221.35         1194.34         1194.34
+==========================================================================================
+==========================================================================================
+Flow Settings:
+==========================================================================================
+Total Runtime (h:m:s): 00:30:23
+Total Memory (MB):     1194.34
+Executable Version:    20.11-s111_1
+==========================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+
