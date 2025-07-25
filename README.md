@@ -31,3 +31,12 @@ __4. Code Coverage:__ Analyze testbench effectiveness using the IMC (Incisive Me
    - Evaluated metrics such as statement coverage, branch coverage, toggle coverage, and condition coverage.  
    - Identified uncovered code sections and refined the testbench to achieve higher coverage percentages, ensuring comprehensive verification.
 
+
+__5. Synthesis:__ Convert RTL to gate-level netlist using Cadence Genus tool, viewed in GUI. *Done.*  
+   - Incorporated typical library files for predefined gates, the design file, and a constraint file.  
+   - Performed elaboration of RTL design to generate an initial unstandard schematic.  
+   - Applied synthesize command to translate logic using standard gates, incorporating delays based on constraints, visible in the Genus GUI schematic.  
+   - Generated the netlist in Verilog format directly from Genus.  
+   - Constraints include: time unit definition, clock creation, clock uncertainty, input delays, output delays, driving cells, load capacitance, operating conditions.  
+
+<img src="https://github.com/tusharc01/Combinational_lock/blob/main/Synthesis/with_Constraints/lock_sdc.sdc">
