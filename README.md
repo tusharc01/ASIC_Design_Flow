@@ -33,7 +33,7 @@ __4. Code Coverage:__ Analyze testbench effectiveness using the IMC (Incisive Me
 
 
 __5. Synthesis:__ Convert RTL to gate-level netlist using Cadence Genus tool, viewed in GUI. *Done.*  
-   - Incorporated typical library files for predefined gates, the design file, and a constraint file.  
+   - Incorporated typical library files for predefined gates (using the 65nm technology node), the design file, and a constraint file.  
    - Performed elaboration of RTL design to generate an initial unstandard schematic.  
    - Applied synthesize command to translate logic using standard gates, incorporating delays based on constraints, visible in the Genus GUI schematic.  
    - Generated the netlist in Verilog format directly from Genus.  
