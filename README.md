@@ -63,3 +63,8 @@ __8. Power Analysis:__ Estimate internal, dynamic (switching), and static (leaka
    - In Design Vision, loaded netlist, read SAIF file (e.g., via `read_saif`), and ran power analysis commands (e.g., `report_power`) to annotate switching activity from SAIF onto the design, computing internal, dynamic, and static power with results output to a report file (e.g., .txt or .rpt) for review.  
    - Note: Though Synopsys PrimePower is a dedicated power analysis tool (not primarily for synthesis) that excels at RTL-to-signoff power estimation, it was not used in this project.  
    - **Note (for knowledge)**: Post-Layout Power Analysis (after Placement and Routing) involves more detailed and accurate analysis, including dynamic and static power, performed after placement and routing when detailed parasitic information (RC extraction) is available; designers can refine power delivery networks based on power analysis results.
+
+__9. Physical Design:__ Implement the layout of the synthesized netlist using Cadence Innovus tool, following key steps to transform the gate-level design into a physical chip representation ready for fabrication. *Done.*  
+   - **Partitioning**: Breaks up a circuit into smaller sub-circuits or modules which can each be designed or analyzed individually (important for managing complexity in large designs by enabling parallel processing and easier optimization). For smaller designs like this FSM-based combination lock, partitioning was skipped or handled implicitly during floorplanning/import, as the entire netlist could be processed as one block without needing subdivision.
+
+
