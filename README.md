@@ -65,6 +65,33 @@ __8. Power Analysis:__ Estimate internal, dynamic (switching), and static (leaka
    - **Note (for knowledge)**: Post-Layout Power Analysis (after Placement and Routing) involves more detailed and accurate analysis, including dynamic and static power, performed after placement and routing when detailed parasitic information (RC extraction) is available; designers can refine power delivery networks based on power analysis results.
 
 __9. Physical Design:__ Implement the layout of the synthesized netlist using Cadence Innovus tool, following key steps to transform the gate-level design into a physical chip representation ready for fabrication. *Done.*  
-   - **Partitioning**: Breaks up a circuit into smaller sub-circuits or modules which can each be designed or analyzed individually (important for managing complexity in large designs by enabling parallel processing and easier optimization). For smaller designs like this FSM-based combination lock, partitioning was skipped or handled implicitly during floorplanning/import, as the entire netlist could be processed as one block without needing subdivision.
 
+   - **Pre-Physical Design Preparation**: Before starting physical design in Innovus, prepared essential input files including:  
+     - **Gate-Level Netlist**: The synthesized netlist (from lock.v RTL) to understand the circuit's structure.  
+     - **Pre-PnR Synthesis (Using Multiple Libraries - Multi-Corner)**: Performed advanced synthesis using technology libraries (.lib files) for different Process, Voltage, and Temperature (PVT) corners to ensure robustness:  
+       - Worst-Case Setup (e.g., _ss.lib, _max.lib): Slow Process, Low Voltage, High Temperature; used for checking maximum path delays (setup timing).  
+       - Best-Case Hold (e.g., _ff.lib, _min.lib): Fast Process, High Voltage, Low Temperature; used for checking minimum path delays (hold timing).  
+     - **Why Multiple Libraries?**: Accounts for real-world PVT variations to ensure the chip functions correctly across conditions; enables timing closure by optimizing for both slow (setup violations) and fast (hold violations) extremes, unlike initial synthesis which uses only a "Typical" (.lib) library for nominal conditions (faster but less robust).  
+     - **Initial vs. Pre-PnR Netlist**: Initial synthesis focuses on basic typical timing (faster process, functionally correct but roughly optimized); Pre-PnR provides robust setup/hold closure across corners (slower, more complex optimization, PnR-ready).  
+     - **Synthesis Process**: Automated via TCL script in Cadence Genus, which reads RTL, realizes logical structure, applies constraints, performs technology-independent optimization, maps to specific technology libraries, and conducts timing-driven optimization.  
+     - **Timing Libraries Used**: Included _ss (Slow-Slow) and _max for setup analysis (worst-case delay), _ff (Fast-Fast) and _min for hold analysis (best-case delay); these provide timing (delay, setup, hold), power, and functional characteristics of standard cells (e.g., AND, OR, Flip-Flops) and I/O pads, used during mapping/optimization and matched in Innovus MMMC setup for consistent timing-driven operations.  
+     - **Timing Constraints**: Loaded from SDC file (e.g., lock_sdc.sdc) defining clock periods, waveforms, input/output delays, timing exceptions (false/multicycle paths), and design rules (max transition/capacitance); used to guide optimization with internal path_adjust commands for added margin.  
+     - **MMMC Setup in Innovus**: Multi-Mode Multi-Corner (MMMC) analysis setup, which defines multiple operating modes (e.g., functional vs. test) and PVT corners for comprehensive timing, power, and signal integrity analysis; it integrates the multi-corner libraries and constraints to ensure the design meets requirements across variations, as referenced in the tool's configuration (e.g., setup scripts or GUI screenshots from the project PDF, indicating specific corner definitions and library paths).  
+       - **Multiple Modes**: These modes represent various ways the circuit might function in real-world use, each with its own set of timing constraints, clock definitions, or power states. For example:  
+         - Functional mode: The normal operating state, like your lock processing input sequences at full speed.  
+         - Test mode: A scan/test configuration for manufacturing testing, possibly with different clock frequencies or enabled scan chains.  
+         - Low-power mode: A state with clock gating or voltage scaling to reduce power, altering timing paths.  
+         - Other modes: Could include standby, high-performance, or multi-clock domain scenarios based on the design's requirements.  
+         The MMMC setup defines these modes alongside PVT corners to run comprehensive checks—ensuring timing, power, and signal integrity hold across all combinations.  
+       - **Multiple Corners**: These "corners" represent extreme or boundary conditions under which the design must operate reliably, such as:  
+         - Worst-case corners (e.g., slow process, low voltage, high temperature) for checking maximum delays and setup timing.  
+         - Best-case corners (e.g., fast process, high voltage, low temperature) for checking minimum delays and hold timing.  
+         - Typical corners for nominal conditions.  
+     - **Output Files Generated**:  
+       - Optimized Gate-Level Netlist: RTL constructs replaced with gate-level equivalents, optimized for timing/area; primary input for Innovus design import.  
+       - Final Timing Constraints (SDC): Reflects constraints as modified by Genus; loaded into Innovus via MMMC for PnR.  
+       - Standard Delay Format (SDF) File: Contains estimated cell/interconnect delays; primarily for gate-level simulation (GLS) to verify timing/functionality (less common in direct PnR).  
+       - LEC Script: For internal equivalence checking (not direct PnR input).  
+       - Reports (.rpt), Logs (.log), Snapshots: For designer debugging/analysis (not direct PnR inputs).  
 
+   - **Partitioning**: Breaks up a circuit into smaller sub-circuits or modules which can each be designed or analyzed individually (important for managing complexity in large designs by enabling parallel processing and easier optimization). For smaller designs like this FSM-based combination lock, partitioning was skipped or handled implicitly during floorplanning/import, as the entire netlist could be processed as one block without needing subdivision.  
