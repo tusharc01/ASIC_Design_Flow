@@ -163,3 +163,5 @@ __9. Physical Design:__ Implement the layout of the synthesized netlist using Ca
     - **SI Optimization**: Activate to insert shielding or spacing for noise-prone signals; chosen to mitigate crosstalk in dense areas, ensuring signal stability without excessive area penalty.  
     - **Layer Limits and Assignment**: Restrict lower layers (e.g., M1-M2) for local shorts and upper (e.g., M3-TOP_M(4)) for long global routes due to lower resistance—opted for this hierarchy to optimize delay and power in a small design, avoiding overuse of premium layers.  
     - **Congestion and DRC Handling**: Set moderate search/repair iterations to resolve overflows; targets low congestion (<10%) to prevent reruns, based on initial global routing estimates for efficient resource allocation.
+
+*To be continued...*
