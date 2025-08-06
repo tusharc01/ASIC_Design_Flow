@@ -190,7 +190,6 @@ Where:
   * Downsize Gates: Reducing the drive strength of gates in the path can also increase their delay.
   * Increase Capacitive Load: Adding "dummy" loads can slightly increase delay, but this is less common and adds area.
 
----
 
 ## Which path to consider? Which FF in the whole complex design?
 
