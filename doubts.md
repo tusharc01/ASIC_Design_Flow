@@ -174,7 +174,7 @@ T_clk_launch + T_clktoQ + T_logic_delay ≤ T_clk_capture + T_period - T_setup -
 T_clk_launch + T_clktoQ + T_logic_delay ≥ T_clk_capture + T_hold + T_uncertainty
 ```
 
-#### 🛠Goal: Increase `T_logic_delay` (make data arrive later)
+#### Goal: Increase `T_logic_delay` (make data arrive later)
 
 #### Fixes:
 - **Add Buffers**: Main technique.
