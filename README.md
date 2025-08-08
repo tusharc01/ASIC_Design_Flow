@@ -49,7 +49,7 @@ __6. Formal Verification (LEC):__ Verify functional equivalence between the orig
    - Resolved any identified issues (e.g., non-equivalences or unmapped elements) to confirm 100% logical match, including adjusting synthesis constraints or directives to prevent unwanted optimizations (e.g., retiming or logic restructuring) that alter the netlist structure, and fixing RTL issues like uninitialized variables or ambiguous logic that synthesis interprets differently.  
    - **Note on LEC Process**: In the ASIC flow, LEC is typically automated via a specific .do file (a TCL-based script in Conformal) containing commands like `read design`, `set system mode lec`, `map key points`, `add compared points`, and `report statistics` to load designs, perform mapping/comparison, and generate reports; this ensures repeatable verification without manual GUI steps, often run in batch mode for efficiency.
 
-__7. Design gor Testability (DFT):__
+__7. Design for Testability (DFT):__ Lorem
 
 
 __*. Static Timing Analysis (STA):__ Analyze timing paths in the synthesized netlist using Cadence Tempus tool to ensure the design meets required clock frequency specifications, checking for setup and hold violations influenced by factors like clock skew (timing differences between clock paths), uncertainty (jitter and skew margins), jitter (clock edge variations), and logic delays (propagation times through gates and interconnects). *Done.*  
