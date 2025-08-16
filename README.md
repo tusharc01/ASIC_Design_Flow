@@ -42,7 +42,7 @@ __5. Logic Synthesis:__ Convert RTL to gate-level netlist using Cadence Genus to
    - Generated the netlist in Verilog format directly from Genus.  
    - Constraints include: time unit definition, clock creation, clock uncertainty, input delays, output delays, driving cells, load capacitance, operating conditions. [Constraint File](https://github.com/tusharc01/Combinational_lock/blob/main/Synthesis/with_Constraints/lock_sdc.sdc)
 
-__6. Gate Level Simulation (GLS):__
+__6. Gate Level Simulation (GLS):__ Lorem
 
 __7. Formal Verification (LEC):__ Verify functional equivalence between the original RTL (golden design) and the synthesized netlist (revised design) using Cadence Conformal tool for Logic Equivalence Checking (LEC). *Done.*  
    - Compared golden (RTL) and revised (netlist) designs to ensure no logical discrepancies were introduced during synthesis.  
