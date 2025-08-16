@@ -42,14 +42,15 @@ __5. Logic Synthesis:__ Convert RTL to gate-level netlist using Cadence Genus to
    - Generated the netlist in Verilog format directly from Genus.  
    - Constraints include: time unit definition, clock creation, clock uncertainty, input delays, output delays, driving cells, load capacitance, operating conditions. [Constraint File](https://github.com/tusharc01/Combinational_lock/blob/main/Synthesis/with_Constraints/lock_sdc.sdc)
 
+__6. Gate Level Simulation (GLS):__
 
-__6. Formal Verification (LEC):__ Verify functional equivalence between the original RTL (golden design) and the synthesized netlist (revised design) using Cadence Conformal tool for Logic Equivalence Checking (LEC). *Done.*  
+__7. Formal Verification (LEC):__ Verify functional equivalence between the original RTL (golden design) and the synthesized netlist (revised design) using Cadence Conformal tool for Logic Equivalence Checking (LEC). *Done.*  
    - Compared golden (RTL) and revised (netlist) designs to ensure no logical discrepancies were introduced during synthesis.  
    - Analyzed reports for key metrics including equivalence points, mapped points, non-equivalent points, unmapped logic, warnings, and errors.  
    - Resolved any identified issues (e.g., non-equivalences or unmapped elements) to confirm 100% logical match, including adjusting synthesis constraints or directives to prevent unwanted optimizations (e.g., retiming or logic restructuring) that alter the netlist structure, and fixing RTL issues like uninitialized variables or ambiguous logic that synthesis interprets differently.  
    - **Note on LEC Process**: In the ASIC flow, LEC is typically automated via a specific .do file (a TCL-based script in Conformal) containing commands like `read design`, `set system mode lec`, `map key points`, `add compared points`, and `report statistics` to load designs, perform mapping/comparison, and generate reports; this ensures repeatable verification without manual GUI steps, often run in batch mode for efficiency.
 
-__7. Design for Testability (DFT):__ Lorem
+__8. Design for Testability (DFT):__ Lorem
 
 
 __*. Static Timing Analysis (STA):__ Analyze timing paths in the synthesized netlist using Cadence Tempus tool to ensure the design meets required clock frequency specifications, checking for setup and hold violations influenced by factors like clock skew (timing differences between clock paths), uncertainty (jitter and skew margins), jitter (clock edge variations), and logic delays (propagation times through gates and interconnects). *Done.*  
@@ -68,7 +69,7 @@ __*. Power Analysis:__ Estimate internal, dynamic (switching), and static (leaka
    - Note: Though Synopsys PrimePower is a dedicated power analysis tool (not primarily for synthesis) that excels at RTL-to-signoff power estimation, it was not used in this project.  
    - **Note (for knowledge)**: Post-Layout Power Analysis (after Placement and Routing) involves more detailed and accurate analysis, including dynamic and static power, performed after placement and routing when detailed parasitic information (RC extraction) is available; designers can refine power delivery networks based on power analysis results.
 
-__8. Physical Design:__ Implement the layout of the synthesized netlist using Cadence Innovus tool, following key steps to transform the gate-level design into a physical chip representation ready for fabrication. *Done.*  
+__9. Physical Design:__ Implement the layout of the synthesized netlist using Cadence Innovus tool, following key steps to transform the gate-level design into a physical chip representation ready for fabrication. *Done.*  
 
    - **Pre-Physical Design Preparation**: Before starting physical design in Innovus, prepared essential input files including:  
      - **Gate-Level Netlist**: The synthesized netlist (from lock.v RTL) to understand the circuit's structure.  
