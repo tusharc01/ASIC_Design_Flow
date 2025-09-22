@@ -1,4 +1,4 @@
-# 📘 Process Design Kit (PDK)
+# Process Design Kit (PDK)
 
 A **PDK (Process Design Kit)** is a collection of files, models, and rules provided by a semiconductor foundry (e.g., TSMC, Samsung, Intel, GlobalFoundries).  
 It acts as the **bridge** between semiconductor manufacturing and chip design tools (EDA).
@@ -52,7 +52,7 @@ It acts as the **bridge** between semiconductor manufacturing and chip design to
 
 ---
 
-## ✅ TL;DR
+## TL;DR
 
 A **PDK is the recipe book for a semiconductor process**.  
 Without it, you can’t reliably design or tape-out an SoC/IP.  
