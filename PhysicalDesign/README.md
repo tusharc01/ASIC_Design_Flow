@@ -1,3 +1,11 @@
+<p>
+  <a href="https://youtu.be/jwVzHmIpLY8" target="_blank">
+    <img src="https://img.youtube.com/vi/jwVzHmIpLY8/0.jpg" alt="Video reference">
+  </a>
+</p>
+
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/tusharc01/ASIC_Design_Flow/main/PhysicalDesign/backend.png" alt="Backend Design Flow" style="max-width:100%; height:auto;" />
 </p>
